@@ -1,0 +1,2854 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themesfa Customize WooCommerce\n"
+"POT-Creation-Date: 2018-10-14 23:18+0330\n"
+"PO-Revision-Date: 2018-10-26 13:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: thf-customize-wc.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/classes/class-thf-menu-limit-detector.php:65
+msgid ""
+"Your server is running Suhosin, and your current maxvars settings may limit "
+"the number of menu items you can save."
+msgstr ""
+
+#: includes/admin/classes/class-thf-menu-limit-detector.php:73
+#, php-format
+msgid ""
+"You are approaching the post variable limit imposed by your server "
+"configuration. Exceeding this limit may automatically delete menu items "
+"settings when you save. Please increase your %1$s directive in php.ini. See: "
+"%2$s Increasing max input vars limit.%3$s"
+msgstr ""
+
+#: includes/admin/classes/class-thf-menu-limit-detector.php:116
+msgid "Menu Item Limit Warning"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:56
+#: includes/admin/classes/class-thf-system-status.php:57
+#: includes/admin/classes/class-thf-system-status.php:75
+msgid "System Status"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:336
+msgid "WordPress environment"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:341
+msgid "Home URL"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:345
+msgid "Site URL"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:349
+msgid "WP version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:353
+msgid "WP multisite"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:357
+msgid "WP memory limit"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:360
+#, php-format
+msgid ""
+"%1$s - We recommend setting memory to at least %2$s. To import the demo data "
+"%3$s of memory limit is required. See: %4$s"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:360
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:367
+msgid "WP debug mode"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:377
+msgid "Language"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:397
+msgid "Hide errors from visitors"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:402
+msgid ""
+"Error messages can contain sensitive information about your website "
+"environment. These should be hidden from untrusted visitors."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:414
+msgid "Server environment"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:419
+msgid "Server info"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:423
+msgid "PHP version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:428
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of %2$s."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:437
+msgid "PHP post max size"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:441
+msgid "PHP time limit"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:446
+#, php-format
+msgid "%1$s - We recommend setting max execution time to at least %2$s."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:456
+msgid "PHP max input vars"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:460
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s. Max input vars limitation will truncate POST "
+"data such as menus. See: %3$sIncreasing max input vars limit.%4$s"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:469
+msgid "cURL version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:473
+msgid "SUHOSIN installed"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:474
+msgid ""
+"You have to increase the suhosin.post.max_vars and suhosin.request.max_vars "
+"parameters to 2000 or more."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:485
+msgid "MySQL version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:491
+#, php-format
+msgid ""
+"%1$s - WordPress recommends a minimum MySQL version of %2$s. See: "
+"%3$sWordPress requirements%4$s"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:500
+msgid "Max upload size"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:504
+msgid "fsockopen/cURL"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:509
+msgid ""
+"Your server does not have fsockopen or cURL enabled. Contact your hosting "
+"provider."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:514
+msgid "Multibyte string"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:519
+msgid ""
+"Your server does not support the mbstring functions - this is required for "
+"better character encoding. Some fallbacks will be used instead for it."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:524
+msgid "XMLReader"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:529
+msgid ""
+"The XMLReader PHP module/extension is missing. Please contact your hosting "
+"company and ask them to install that for you."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:534
+msgid "Remote post"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:539
+msgid "wp_remote_post() failed. Contact your hosting provider."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:544
+msgid "Remote get"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:549
+msgid "wp_remote_get() failed. Contact your hosting provider."
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:569
+msgid "Theme"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:574
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:5
+msgid "Name"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:579
+msgid "Version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:585
+msgid "Author URL"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:589
+msgid "Child theme"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:598
+msgid "Parent theme name"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:602
+msgid "Parent theme version"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:608
+msgid "Parent theme author URL"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:615
+msgid "Latest Demo Installed"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:624
+msgid "Switched From"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:655
+msgid "Active plugins"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:674
+#, php-format
+msgid "%s is available"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:678
+msgid "Network enabled"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:685
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:710
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: includes/admin/classes/class-thf-system-status.php:711
+msgid "Get system report"
+msgstr ""
+
+#: includes/admin/framework-admin.php:60
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: includes/admin/framework-admin.php:66
+msgid "Sharing"
+msgstr "اشتراک گذاری"
+
+#: includes/admin/framework-admin.php:71 includes/admin/framework-admin.php:86
+#: includes/admin/plugin-options.php:413
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/admin/framework-admin.php:76 includes/admin/framework-admin.php:91
+msgid "SMS"
+msgstr "اس ام اس"
+
+#: includes/admin/framework-admin.php:81
+msgid "Notifier"
+msgstr "به من اطلاع بده"
+
+#: includes/admin/framework-admin.php:96
+#: includes/plugins/vc-elements/price-table.php:25
+msgid "Price Table"
+msgstr "لیست قیمت"
+
+#: includes/admin/framework-admin.php:101
+#: includes/plugins/vc-elements/realtime-offer-element.php:25
+msgid "Real-time Offer"
+msgstr "پیشنهاد لحظه ای"
+
+#: includes/admin/framework-admin.php:106
+msgid "Compare-Wishlist"
+msgstr "مقایسه"
+
+#: includes/admin/framework-admin.php:111
+msgid "Comment Like Dislike"
+msgstr "نظرات کاربران"
+
+#: includes/admin/framework-admin.php:118
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/admin/framework-admin.php:123
+#: includes/plugins/cyclone-slider-2/src/plugin.php:96
+msgid "Export/Import"
+msgstr "تنظیمات درون ریزی / برون بری"
+
+#: includes/admin/framework-admin.php:150
+msgid "Theme Options"
+msgstr "تنظیمات نمایش"
+
+#: includes/admin/framework-admin.php:244
+msgid "Update"
+msgstr "بروز رسانی"
+
+#: includes/admin/framework-admin.php:245 includes/admin/plugin-options.php:228
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/admin/framework-admin.php:402
+#: includes/admin/framework-admin.php:452
+msgid "- Select a category -"
+msgstr "دسته بندی "
+
+#: includes/admin/framework-admin.php:425
+msgid "- Select a menu -"
+msgstr "انتخاب"
+
+#: includes/admin/framework-options.php:174
+#: includes/admin/framework-options.php:807
+#: includes/plugins/cyclone-slider-2/views/import-step-1.php:24
+msgid "Upload"
+msgstr "آپلود"
+
+#: includes/admin/framework-options.php:813
+msgid "no-repeat"
+msgstr ""
+
+#: includes/admin/framework-options.php:814
+msgid "Tile"
+msgstr "عنوان"
+
+#: includes/admin/framework-options.php:815
+msgid "Tile Horizontally"
+msgstr "عنوان"
+
+#: includes/admin/framework-options.php:816
+msgid "Tile Vertically"
+msgstr "عنوان"
+
+#: includes/admin/framework-options.php:821
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:53
+msgid "Fixed"
+msgstr ""
+
+#: includes/admin/framework-options.php:822
+msgid "Scroll"
+msgstr ""
+
+#: includes/admin/framework-options.php:823
+msgid "Cover"
+msgstr ""
+
+#: includes/admin/framework-options.php:828
+msgid "Left"
+msgstr ""
+
+#: includes/admin/framework-options.php:829
+msgid "Right"
+msgstr ""
+
+#: includes/admin/framework-options.php:830
+#: includes/admin/framework-options.php:837
+msgid "Center"
+msgstr ""
+
+#: includes/admin/framework-options.php:835
+msgid "Top"
+msgstr ""
+
+#: includes/admin/framework-options.php:836
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/framework-options.php:843
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/framework-options.php:868
+msgid "Font Size in Pixels"
+msgstr ""
+
+#: includes/admin/framework-options.php:869
+#: includes/admin/framework-options.php:880
+#: includes/admin/framework-options.php:891
+#: includes/admin/framework-options.php:908
+#: includes/admin/plugin-options/styling.php:67
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:847
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:20
+msgid "Default"
+msgstr ""
+
+#: includes/admin/framework-options.php:879
+msgid "Line Height"
+msgstr ""
+
+#: includes/admin/framework-options.php:890
+msgid "Font Weight"
+msgstr ""
+
+#: includes/admin/framework-options.php:892
+msgid "Thin 100"
+msgstr ""
+
+#: includes/admin/framework-options.php:893
+msgid "Extra 200 Light"
+msgstr ""
+
+#: includes/admin/framework-options.php:894
+msgid "Light 300"
+msgstr ""
+
+#: includes/admin/framework-options.php:895
+msgid "Regular 400"
+msgstr ""
+
+#: includes/admin/framework-options.php:896
+msgid "Medium 500"
+msgstr ""
+
+#: includes/admin/framework-options.php:897
+msgid "Semi 600 Bold"
+msgstr ""
+
+#: includes/admin/framework-options.php:898
+msgid "Bold 700"
+msgstr ""
+
+#: includes/admin/framework-options.php:899
+msgid "Extra 800 Bold"
+msgstr ""
+
+#: includes/admin/framework-options.php:900
+msgid "Black 900"
+msgstr ""
+
+#: includes/admin/framework-options.php:907
+msgid "Capitalization"
+msgstr ""
+
+#: includes/admin/framework-options.php:909
+msgid "UPPERCASE"
+msgstr ""
+
+#: includes/admin/framework-options.php:910
+msgid "Capitalize"
+msgstr ""
+
+#: includes/admin/framework-options.php:911
+msgid "lowercase"
+msgstr ""
+
+#: includes/admin/plugin-options.php:96 includes/admin/plugin-options.php:97
+msgid "Plugin Options"
+msgstr "تنظیمات افزونه"
+
+#: includes/admin/plugin-options.php:182
+msgid "Save Changes"
+msgstr "ثبت تغییرات"
+
+#. Author of the plugin/theme
+#: includes/admin/plugin-options.php:216 includes/admin/plugin-options.php:217
+#: includes/functions/functions-thf-general.php:23
+msgid "Themesfa"
+msgstr "زنبیل"
+
+#: includes/admin/plugin-options.php:325
+msgid "Twitter"
+msgstr "توییتر"
+
+#: includes/admin/plugin-options.php:331
+#: includes/admin/plugin-options/styling.php:79
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: includes/admin/plugin-options.php:337
+msgid "Google+"
+msgstr "گوگل‌ پلاس"
+
+#: includes/admin/plugin-options.php:343
+msgid "LinkedIn"
+msgstr "لینکدین"
+
+#: includes/admin/plugin-options.php:349
+msgid "StumbleUpon"
+msgstr ""
+
+#: includes/admin/plugin-options.php:355
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/plugin-options.php:361
+msgid "Reddit"
+msgstr ""
+
+#: includes/admin/plugin-options.php:367
+msgid "Tumblr"
+msgstr ""
+
+#: includes/admin/plugin-options.php:373
+msgid "VKontakte"
+msgstr ""
+
+#: includes/admin/plugin-options.php:379
+msgid "Odnoklassniki"
+msgstr ""
+
+#: includes/admin/plugin-options.php:385
+msgid "Pocket"
+msgstr ""
+
+#: includes/admin/plugin-options.php:391
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/admin/plugin-options.php:394 includes/admin/plugin-options.php:401
+#: includes/admin/plugin-options.php:408
+msgid "For Mobiles Only"
+msgstr ""
+
+#: includes/admin/plugin-options.php:398
+msgid "Telegram"
+msgstr "تلگرام"
+
+#: includes/admin/plugin-options.php:405
+msgid "Viber"
+msgstr ""
+
+#: includes/admin/plugin-options.php:419
+msgid "Print"
+msgstr ""
+
+#: includes/admin/plugin-options/advanced.php:5
+#: includes/admin/plugin-options/advanced.php:14
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:276
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: includes/admin/plugin-options/advanced.php:19
+msgid "Cache"
+msgstr "فعال کردن کش"
+
+#: includes/admin/plugin-options/advanced.php:22
+msgid ""
+"If enabled, some static parts like widgets, main menu and breaking news will "
+"be cached to reduce MySQL queries. Saving the theme settings, adding/editing/"
+"removing posts, adding comments, updating menus, activating/deactivating "
+"plugins, adding/editing/removing terms or updating WordPress, will flush the "
+"cache."
+msgstr ""
+"با فعال کردن این گزینه ، حالت کش افزونه فعال شده و افزونه سریع تر خواهد شد."
+
+#: includes/admin/plugin-options/advanced.php:27
+msgid "Minified CSS and JS files"
+msgstr "فشرده سازی css و js"
+
+#: includes/admin/plugin-options/advanced.php:34
+msgid "Add a link to the plugin options page to the Toolbar"
+msgstr "اضافه کردن آیکون افزونه در تولبار"
+
+#: includes/admin/plugin-options/advanced.php:41
+msgid "Disable GIF Featured Images"
+msgstr ""
+
+#: includes/admin/plugin-options/advanced.php:57
+#: includes/admin/plugin-options/advanced.php:62
+msgid "WordPress Login page Logo"
+msgstr ""
+
+#: includes/admin/plugin-options/advanced.php:69
+msgid "WordPress Login page Logo URL"
+msgstr ""
+
+#: includes/admin/plugin-options/advanced.php:79
+#: includes/admin/plugin-options/advanced.php:84
+msgid "Reset All Settings"
+msgstr "ریست تنظیمات"
+
+#: includes/admin/plugin-options/advanced.php:84
+msgid ""
+"This action can not be Undo. Clicking \"OK\" will reset your plugin options "
+"to the default installation. Click \"Cancel\" to stop this operation."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:6
+msgid "Export/Import Plugin Options"
+msgstr "تنظیمات درون ریزی / برون بری"
+
+#: includes/admin/plugin-options/backup.php:14
+msgid "The plugin options have been imported successfully."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:21
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:64
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:62
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php:69
+msgid "Export"
+msgstr "برون‌بری"
+
+#: includes/admin/plugin-options/backup.php:29
+msgid ""
+"When you click the button below the theme will create a .dat file for you to "
+"save to your computer."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:30
+msgid ""
+"Once you’ve saved the download file, you can use the Import function in "
+"another WordPress installation to import the plugin options from this site."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:32
+msgid "Download Export File"
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:39
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:69
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:67
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExporterNextgen.php:65
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php:74
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/NextgenIntegration.php:65
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-nextgen-integration.php:63
+#: includes/plugins/cyclone-slider-2/src/plugin.php:122
+msgid "Import"
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:47
+msgid ""
+"Upload your .dat plugin options file and we will import the options into "
+"this site."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:48
+msgid "Choose a (.dat) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:51
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: includes/admin/plugin-options/backup.php:56
+msgid "Upload file and import"
+msgstr ""
+
+#: includes/admin/plugin-options/general.php:5
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: includes/admin/plugin-options/general.php:98
+msgid "Custom Codes"
+msgstr "سفارشی"
+
+#: includes/admin/plugin-options/general.php:104
+msgid "Header Code"
+msgstr ""
+
+#: includes/admin/plugin-options/general.php:106
+msgid ""
+"Will add to the &lt;head&gt; tag. Useful if you need to add additional codes "
+"such as CSS or JS."
+msgstr ""
+
+#: includes/admin/plugin-options/general.php:112
+msgid "Footer Code"
+msgstr ""
+
+#: includes/admin/plugin-options/general.php:114
+msgid ""
+"Will add to the footer before the closing  &lt;/body&gt; tag. Useful if you "
+"need to add Javascript."
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:5
+#: includes/admin/plugin-options/styling.php:11
+msgid "Styling Settings"
+msgstr "تنظیمات استایل ها"
+
+#: includes/admin/plugin-options/styling.php:17
+msgid "Apply custom styling by inline code"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:18
+msgid ""
+"check this option if you have problems with styling because of styling file "
+"rewrite permissions."
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:26
+#: includes/admin/plugin-options/styling.php:31
+msgid "Site Width"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:35
+msgid "Controls the overall site width. In px or %, ex: 100% or 1170px."
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:41
+#: includes/admin/plugin-options/styling.php:47
+msgid "Custom Body Classes"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:55
+msgid "Primary Color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:61
+msgid "Predefined skins"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:66
+msgid "Choose a Skin"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:68
+msgid "Blue"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:69
+msgid "Yellow"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:70
+msgid "Alizarin"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:71
+msgid "Sand"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:72
+msgid "Royal"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:73
+msgid "Mint"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:74
+msgid "Stylish Red"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:75
+msgid "Twilight"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:76
+msgid "Coffee"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:77
+msgid "Ocean"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:78
+msgid "Cyan"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:80
+msgid "Sahifa"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:81
+msgid "Mist"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:82
+msgid "Serene"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:83
+msgid "Fall"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:158
+msgid "Custom Primary Color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:166
+msgid "Body"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:172
+msgid "Highlighted Text Color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:178
+msgid "Links Text Color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:184
+msgid "Links text HOVER color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:190
+msgid "Underline text links on hover"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:200
+msgid "Main Content Styling"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:204
+msgid "In Post Links Color"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:210
+msgid "In Post Links Color on mouse over"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:218
+#: includes/admin/plugin-options/styling.php:229
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:224
+msgid ""
+"Paste your CSS code, do not include any tags or HTML in the field. Any "
+"custom CSS entered here will override the theme CSS. In some cases, the !"
+"important tag may be needed."
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:236
+msgid "Tablets"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:236
+msgid "768px - 1024px"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:243
+msgid "Phones"
+msgstr ""
+
+#: includes/admin/plugin-options/styling.php:243
+msgid "0 - 768px"
+msgstr ""
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:4
+msgid "WooCommerce Comment Like Dislike Settings"
+msgstr "تنظیمات نظرات کاربران"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:11
+msgid "Comment Like Dislike Settings"
+msgstr "تنظیمات نظرات کاربران"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:16
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:21
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:21
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:21
+#: includes/admin/plugin-options/woocommerce-notifier.php:21
+#: includes/admin/plugin-options/woocommerce-price-table.php:21
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:21
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:21
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:21
+#: includes/admin/plugin-options/woocommerce-sharing.php:21
+#: includes/admin/plugin-options/woocommerce.php:32
+msgid "Enable"
+msgstr "فعال"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:22
+msgid "Enable Admin Statistics"
+msgstr "فعال کردن گزارشات"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:24
+#, php-format
+msgid ""
+"If Enabled, new columns added in Admin <a href=\"%s\" target=\"_blank\" "
+">Comments Page</a>."
+msgstr ""
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:29
+msgid "Like Dislike Position"
+msgstr "موقعیت دکمه لایک و دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:33
+msgid "After Comment"
+msgstr "بعد از دیدگاه"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:34
+msgid "Before Comment"
+msgstr "قبل از دیدگاه"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:39
+msgid "Like Dislike Display"
+msgstr "نوع نمایش"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:43
+msgid "Display Both"
+msgstr "نمایش هر دو"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:44
+msgid "Display Like Only"
+msgstr "فقط نمایش لایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:45
+msgid "Display Dislike Only"
+msgstr "فقط نمایش دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:50
+msgid "Like Dislike Restriction"
+msgstr "نوع محدودیت"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:54
+msgid "Cookie Restriction"
+msgstr "بر اساس کوکی"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:55
+msgid "IP Restriction"
+msgstr "بر اساس آی پی"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:56
+msgid "Login Restriction"
+msgstr "بر اساس حساب کاربری"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:57
+msgid "No Restriction"
+msgstr "بدون محدودیت"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:62
+msgid "Like Dislike Display Order"
+msgstr "ترتیب نمایش"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:66
+msgid "Like Dislike"
+msgstr "لایک دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:67
+msgid "Dislike Like"
+msgstr "دیسلایک لایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:72
+msgid "Hint"
+msgstr "متن"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:73
+msgid "Was this comment helpful?"
+msgstr "آیا این دیدگاه برای شما مفید بود ؟"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:79
+msgid "Like hover text"
+msgstr "متن دیکه لایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:80
+#: templates/woocommerce/comments-like-dislike/like.php:10
+msgid "Like"
+msgstr "بله"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:86
+msgid "Dislike hover text"
+msgstr "متن دکمه دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:87
+#: templates/woocommerce/comments-like-dislike/dislike.php:10
+msgid "Dislike"
+msgstr "خیر"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:94
+msgid "Design Settings"
+msgstr "تنظیمات طراحی"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:99
+msgid "Count color"
+msgstr "رنگ شمارنده"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:105
+msgid "Enable icons"
+msgstr "فعال کردن آیکون ها"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:113
+msgid "Like icon"
+msgstr "آیکون لایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:119
+msgid "Like icon color"
+msgstr "رنگ آیکون لایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:125
+msgid "Dislike icon"
+msgstr "آیکون دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-comments-like-dislike.php:131
+msgid "Dislike icon color"
+msgstr "رنک آیکون دیسلایک"
+
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:4
+msgid "WooCommerce Compare-Wishlist Settings"
+msgstr "تنظیمات بخش مقایسه"
+
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:11
+msgid ""
+"Use <code>[tcw_woocompare_table]</code> shortcode <strong>OR</strong> "
+"<code>tcw_show_woocompare_table()</code> function to show compare table."
+msgstr ""
+"برای نمایش لیست مقایسه از شرتکد <code>[tcw_woocompare_table]</code> یا تابع  "
+"<code>tcw_show_woocompare_table()</code> استفاده کنید."
+
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:16
+msgid "Compare-Wishlist Settings"
+msgstr "تنظیمات بخش مقایسه"
+
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:27
+msgid "Select Brand attribute"
+msgstr "انتخاب فیلتر"
+
+#: includes/admin/plugin-options/woocommerce-compare-whislist.php:34
+msgid "Select Compare page"
+msgstr "برگه لیست مقایسه را انتخاب کنید"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:4
+msgid "WooCommerce Notifier Email Settings"
+msgstr "تنظیمات بخش به من اطلاع بده"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:11
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:11
+#, php-format
+msgid ""
+"You Can Use this Plguin for SMTP option: <a href=\"%s\" target=\"_blank\">WP "
+"Email SMTP</a>"
+msgstr ""
+"برای تنظیمات ایمیل میتوانید از پلاگین <a href=\"%s\" target=\"_blank\">WP "
+"Email SMTP</a> استفاده کنید."
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:16
+msgid "Notifier Email Settings"
+msgstr "تنظیمات بخش به من اطلاع بده"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:28
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:28
+msgid "Email From"
+msgstr "ایمیل از :"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:34
+msgid "Back In Stock Notification for {product_title} from {site_title}"
+msgstr "{product_title} موجود شد.  {site_title}"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:36
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:36
+msgid "Email Subject"
+msgstr "موضوع ایمیل"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:42
+msgid ""
+"Hello\n"
+"Product {product_title} is now available and can be purchased."
+msgstr ""
+"با سلام\n"
+"محصول {product_title} هم اکنون موجود و قابل خرید می باشد. لینک خرید:\n"
+"{product_url}"
+
+#: includes/admin/plugin-options/woocommerce-notifier-email.php:45
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:46
+msgid "Email Content"
+msgstr "محتوای ایمیل"
+
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:4
+msgid "WooCommerce Notifier SMS Settings"
+msgstr "تنظیمات بخش اس ام اس"
+
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:11
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:11
+#, php-format
+msgid ""
+"You Can Config SMS Web Service on this page: <a href=\"%s\" target=\"_blank"
+"\">Persian WooCommerce SMS</a>"
+msgstr ""
+"این قسمت از طریق افزونه <a href=\"%s\" target=\"_blank\">Persian WooCommerce "
+"SMS</a> پیکربندی میشود."
+
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:16
+msgid "Notifier SMS Settings"
+msgstr "تنظیمات بخش اس ام اس"
+
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:26
+msgid ""
+"Hello\n"
+"Product {product_title} is now available and can be purchased.\n"
+"{product_url}"
+msgstr ""
+"با سلام\n"
+"محصول {product_title} هم اکنون موجود و قابل خرید می باشد. لینک خرید:\n"
+"{product_url}"
+
+#: includes/admin/plugin-options/woocommerce-notifier-sms.php:30
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:30
+msgid "SMS Content"
+msgstr "محتوای اس ام اس"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:4
+msgid "WooCommerce Notifier Settings"
+msgstr "تنظیمات بخش اس ام اس"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:11
+msgid ""
+"Use <code>[tcw_notifier_subscribe_button]</code> shortcode <strong>OR</"
+"strong> <code>tcw_show_notifier_subscribe_button()</code> function to show "
+"subscribe button."
+msgstr ""
+"برای نمایش دکمه به من اطلاع بده میتوانید از شرتکد "
+"<code>[tcw_notifier_subscribe_button]</code> یا تابع "
+"<code>tcw_show_notifier_subscribe_button()</code> استفاده کنید."
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:16
+msgid "Notifier Settings"
+msgstr "تنظیمات بخش به من اطلاع بده"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:27
+msgid "Subscribe button text"
+msgstr "متن دکمه"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:28
+#: includes/plugins/class-thf-woocommerce-notifier.php:618
+msgid "Notify Me"
+msgstr "موجود شد به من اطلاع بده"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:34
+msgid "Show Subscribe button"
+msgstr "مکان نمایش دکمه"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:38
+msgid "Auto display in product body"
+msgstr "نمایش بصورت خودکار"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:39
+msgid "Auto display under the product thumbnails"
+msgstr "نمایش زیر تصاویر محصول"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:40
+msgid "Display manually by hooks or shortcode"
+msgstr "نمایش بصورت دستی توسط شرتکد"
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:46
+msgid "Delete/Un-CheckSubscribed User after Successful notification"
+msgstr ""
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:50
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:8
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:8
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:43
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/plugin-options/woocommerce-notifier.php:51
+msgid "Uncheck"
+msgstr ""
+
+#: includes/admin/plugin-options/woocommerce-price-table.php:4
+msgid "WooCommerce Price Table Settings"
+msgstr "لیست قیمت"
+
+#: includes/admin/plugin-options/woocommerce-price-table.php:11
+msgid "Use <code>Visual Composer</code> to show price table."
+msgstr "برای نمایش لیست قیمت از ویژوال کامپوزر استفاده کنید"
+
+#: includes/admin/plugin-options/woocommerce-price-table.php:16
+msgid "Price Table Settings"
+msgstr "تنظیمات لیست قیمت"
+
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:4
+msgid "WooCommerce Real-time Offer Settings"
+msgstr "تنظیمات پیشنهاد لحظه ای"
+
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:11
+msgid ""
+"Use <code>[tcw_realtime_offer]</code> shortcode <strong>OR</strong> "
+"<code>tcw_show_realtime_offer()</code> function <strong>OR</strong> "
+"<code>Visual Composer</code> to show offers."
+msgstr ""
+"برای المان پیشنهاد لحظه ای میتوانید از شرتکد <code>[tcw_realtime_offer]</"
+"code> یا تابع <code>tcw_show_realtime_offer()</code> یا ویژوال کامپوزر "
+"استفاده کنید."
+
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:16
+msgid "Real-time Offer Settings"
+msgstr "تنظیمات پیشنهاد لحظه ای"
+
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:27
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:38
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:38
+#: includes/plugins/vc-elements/price-table.php:36
+#: includes/plugins/vc-elements/realtime-offer-element.php:36
+msgid "Title"
+msgstr "عنوان:"
+
+#: includes/admin/plugin-options/woocommerce-realtime-offer.php:34
+msgid "Number of Products to Show"
+msgstr "تعداد محصول برای نمایش"
+
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:4
+msgid "WooCommerce Sharing Email Settings"
+msgstr "تنظیمات بخش اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:16
+msgid "Sharing Email Settings"
+msgstr "تنظیمات بخش اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:34
+msgid "From your friend"
+msgstr "از طرف دوست شما"
+
+#: includes/admin/plugin-options/woocommerce-sharing-email.php:42
+msgid ""
+"Hello\n"
+"Your friend will offer you a purchase and view of this product from "
+"{site_title}.\n"
+"<a href=\"{product_url}\" target=\"_blank\">{product_title}</a>"
+msgstr ""
+"سلام\n"
+"دوست شما مشاهده و خرید این محصول را از {site_title} به شما پیشنهاد می‌کند.\n"
+"<a href=\"{product_url}\" target=\"_blank\">{product_title}</a>"
+
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:4
+msgid "WooCommerce Sharing SMS Settings"
+msgstr "تنظیمات بخش اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:16
+msgid "Sharing SMS Settings"
+msgstr "تنظیمات بخش اس ام اس"
+
+#: includes/admin/plugin-options/woocommerce-sharing-sms.php:26
+msgid ""
+"Hello\n"
+"Your friend will offer you a purchase and view of this product from "
+"{site_title}.\n"
+"{product_url}"
+msgstr ""
+"سلام\n"
+"دوست شما مشاهده و خرید این محصول را از {site_title} به شما پیشنهاد می‌کند.\n"
+"{product_url}"
+
+#: includes/admin/plugin-options/woocommerce-sharing.php:4
+msgid "WooCommerce Sharing Settings"
+msgstr "تنظیمات بخش اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce-sharing.php:11
+msgid ""
+"Use <code>[tcw_sharing_button product_id=\"\"]</code> shortcode <strong>OR</"
+"strong> <code>tcw_show_sharing_button( $product_id )</code> function to show "
+"Sharing button."
+msgstr ""
+"برای اشتراک گذاری میتوانید از شرتکد <code>[tcw_sharing_button product_id="
+"\"\"]</code> یا تابع <code>tcw_show_sharing_button( $product_id )</code> "
+"استفاده کنید."
+
+#: includes/admin/plugin-options/woocommerce-sharing.php:16
+msgid "Sharing Settings"
+msgstr "تنظیمات بخش اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce-sharing.php:27
+msgid "Sharing button text"
+msgstr "متن دکمه"
+
+#: includes/admin/plugin-options/woocommerce-sharing.php:28
+#: includes/plugins/class-thf-woocommerce-sharing.php:331
+msgid "Share"
+msgstr "اشتراک گذاری"
+
+#: includes/admin/plugin-options/woocommerce.php:4
+#: includes/admin/plugin-options/woocommerce.php:10
+msgid "WooCommerce Settings"
+msgstr "تنظیمات ووکامرس"
+
+#: includes/admin/plugin-options/woocommerce.php:15
+msgid "Number of products per page"
+msgstr "تعداد محصول برای نمایش در هر صفحه"
+
+#: includes/admin/plugin-options/woocommerce.php:21
+msgid "Number of the related products"
+msgstr "تعداد محصول مرتبط برای نمایش"
+
+#: includes/admin/plugin-options/woocommerce.php:27
+msgid "Order Products By Stock Status"
+msgstr "مرتب سازی محصولات بر اساس موجودی"
+
+#: includes/classes/class-thf-styles.php:71
+msgid "Added!"
+msgstr "افزوده شد!"
+
+#: includes/classes/class-thf-styles.php:72
+msgid "Nothing Found!"
+msgstr "هیچ نتیجه ای یافت نشد!"
+
+#: includes/plugins/class-thf-js-composer.php:528
+#: includes/plugins/class-thf-woocommerce-ajax-search-products.php:113
+msgid "An error occurred while processing request!"
+msgstr "یک خطا رخ داد. دوباره امتحان کنید"
+
+#: includes/plugins/class-thf-js-composer.php:578
+msgid "No result!"
+msgstr "نتیجه ای پیدا نشد"
+
+#: includes/plugins/class-thf-woocommerce-comments-like-dislike.php:328
+msgid "Likes"
+msgstr "لایک"
+
+#: includes/plugins/class-thf-woocommerce-comments-like-dislike.php:329
+msgid "Dislikes"
+msgstr "دیسلایک"
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:365
+#: includes/plugins/class-thf-woocommerce-sharing.php:247
+msgid "Product not found!."
+msgstr "محصول یافت نشد!."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:369
+msgid "Product is in Stock!."
+msgstr "محصول موجود میباشید!."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:397
+msgid "Email is empty OR Invalid!."
+msgstr "لطفا یک ایمیل معتبر وارد کنید!."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:406
+msgid "Phone number is empty OR Invalid!."
+msgstr "لطفا یک شماره موبایل معتبر وارد کنید!."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:431
+#: includes/plugins/class-thf-woocommerce-notifier.php:488
+msgid "Successfully Unsubscribe form Email."
+msgstr "با موفقیت از خبرنامه ایمیلی حذف شدید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:441
+#: includes/plugins/class-thf-woocommerce-notifier.php:503
+msgid "Successfully Unsubscribe form SMS."
+msgstr "با موفقیت از خبرنامه پیامکی حذف شدید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:453
+#: includes/plugins/class-thf-woocommerce-notifier.php:540
+#: includes/plugins/class-thf-woocommerce-sharing.php:268
+#: includes/plugins/class-thf-woocommerce-sharing.php:275
+msgid "Unexpected error. Please try again later."
+msgstr "خطای غیرمنتظره ! لطفا بعدا مراجعه کنید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:458
+msgid "Please select at least one of the items."
+msgstr "لطفا حداقل یکی از آیتم های اشتراک را انتخاب کنید!."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:485
+msgid "Email Updated Successfully."
+msgstr "ایمیل شما با موفقیت بروزرسانی شد."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:500
+msgid "Phone Updated Successfully."
+msgstr "شماره موبایل شما با موفقیت بروزرسانی شد."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:512
+msgid "Successfully Subscribed."
+msgstr "شما با موفقیت مشترک خبرنامه شدید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:514
+msgid "Successfully Subscribed to Email."
+msgstr "شما با موفقیت مشترک خبرنامه ایمیلی شدید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:516
+msgid "Successfully Subscribed to SMS."
+msgstr "شما با موفقیت مشترک خبرنامه پیامکی شدید."
+
+#: includes/plugins/class-thf-woocommerce-notifier.php:533
+msgid "You have already subscribed!."
+msgstr "شما قبلا مشترک خبرنامه شده اید!."
+
+#: includes/plugins/class-thf-woocommerce-price-table.php:98
+#: includes/plugins/class-thf-woocommerce-price-table.php:129
+#, php-format
+msgid "Old price (%s)"
+msgstr "قیمت قدیم (%s)"
+
+#: includes/plugins/class-thf-woocommerce-price-table.php:136
+msgid "Variation Old price"
+msgstr "تغییرات قیمت قدیم"
+
+#: includes/plugins/class-thf-woocommerce-price-table.php:191
+msgid "Price increase"
+msgstr "افزایش قیمت"
+
+#: includes/plugins/class-thf-woocommerce-price-table.php:196
+msgid "Price decrease"
+msgstr "کاهش قیمت"
+
+#: includes/plugins/class-thf-woocommerce-price-table.php:201
+msgid "Price Unchanged"
+msgstr "قیمت ثابت"
+
+#: includes/plugins/class-thf-woocommerce-sharing.php:252
+msgid "Email is Invalid!."
+msgstr "لطفا یک ایمیل معتبر وارد کنید!."
+
+#: includes/plugins/class-thf-woocommerce-sharing.php:257
+msgid "Phone is Invalid!."
+msgstr "لطفا یک شماره موبایل معتبر وارد کنید!."
+
+#: includes/plugins/class-thf-woocommerce-sharing.php:266
+msgid "The email was successfully sent to your friend."
+msgstr "ایمیل با موفقیت برای دوست شما ارسال شد."
+
+#: includes/plugins/class-thf-woocommerce-sharing.php:273
+msgid "The sms was successfully sent to your friend."
+msgstr "پیامک با موفقیت برای دوست شما ارسال شد."
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:140
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:182
+msgid "Cyclone Slider"
+msgstr "اسلایدر"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:141
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:183
+msgid "Slideshow"
+msgstr "اسلاید ها"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:142
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:184
+msgid "Add Slideshow"
+msgstr "افزودن اسلایدر جدید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:143
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:185
+msgid "Add New Slideshow"
+msgstr "افزودن اسلایدر جدید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:144
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:186
+msgid "Edit Slideshow"
+msgstr "ویرایش"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:145
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:187
+msgid "New Slideshow"
+msgstr "افزودن اسلایدر جدید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:146
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:188
+msgid "View Slideshow"
+msgstr "نمایش"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:147
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:189
+msgid "Search Slideshows"
+msgstr "جستجو"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:148
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:190
+msgid "No slideshows found"
+msgstr "هیچ اسلایدی پیدا نشد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:149
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:191
+msgid "No slideshows found in Trash"
+msgstr "هیچ اسلایدی پیدا نشد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:195
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:198
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:199
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:202
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:203
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:204
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:210
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:211
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:214
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:215
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:216
+msgid "Slideshow updated."
+msgstr "بروزرسانی شد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:196
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:208
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:197
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:209
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:200
+msgid "Slideshow published."
+msgstr "منتشر شد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:201
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:213
+msgid "Slideshow saved."
+msgstr "ذخیره شد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:240
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:225
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:249
+msgid "Slider Preview"
+msgstr "پیش نمایش"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:258
+msgid "Get Slider Codes"
+msgstr "کد اسلایدر"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:267
+msgid "Basic Settings"
+msgstr "تنظیمات پایه"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:285
+msgid "Templates"
+msgstr "قالب"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:294
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:616
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:520
+msgid "Slideshow ID"
+msgstr "آیدی"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:314
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:111
+#, php-format
+msgid "Slider \"%s\" not found."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:321
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:4
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:298
+msgid "Slide"
+msgstr "اسلاید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:326
+msgid "[Hidden]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:467
+msgid "Core"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:468
+#, php-format
+msgid ""
+"You should not make changes to templates in this location. All your changes "
+"will be gone when the plugin is updated. <br />Location: <strong>%s</strong>"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:471
+msgid "Active Theme"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:472
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:477
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:481
+#, php-format
+msgid "Location: <strong>%s</strong>"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:473
+msgid ""
+"Your template is in danger of being overwritten when you upgrade your theme. "
+"Please consider creating a WordPress plugin Cyclone Slider template."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:476
+msgid "WP Content"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:480
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:519
+msgid "Slide *"
+msgstr "اسلاید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:613
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:519
+msgid "Slideshow Name"
+msgstr "نام اسلایدر"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:614
+msgid "Template"
+msgstr "قالب"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:615
+msgid "No. of Slides"
+msgstr "تعداد اسلاید ها"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Admin.php:617
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:521
+msgid "Shortcode"
+msgstr "شرتکد"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/AssetLoader.php:68
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:148
+msgid "Select an image"
+msgstr "یک تصویر انتخاب کنید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/AssetLoader.php:69
+msgid "Select Images - Use Ctrl + Click or Shift + Click"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/AssetLoader.php:70
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:149
+msgid "Add to Slide"
+msgstr "افزودن به اسلاید"
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/AssetLoader.php:71
+#: includes/plugins/cyclone-slider-2/views/slides.php:9
+msgid "Add Images as Slides"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/AssetLoader.php:72
+msgid "Error. Make sure its a valid YouTube URL."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:288
+#, php-format
+msgid "Invalid format for get_slider %s parameter."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:805
+msgid "Fit"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:806
+msgid "Fill"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:807
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:815
+msgid "Crop"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:808
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:816
+msgid "Exact"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:809
+msgid "Exact Width"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:810
+msgid "Exact Height"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:814
+msgid "Auto"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:817
+msgid "Landscape"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:818
+msgid "Portrait"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:830
+msgid "Fade"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:831
+msgid "Fade Out"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:832
+msgid "None"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:833
+msgid "Scroll Horizontally"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:834
+msgid "Tile Blind"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:835
+msgid "Tile Slide"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:851
+msgid "Swing"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:855
+msgid "Ease-In Quad"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:859
+msgid "Ease-Out Quad"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:863
+msgid "Ease-In OutQuad"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:867
+msgid "Ease-In Cubic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:871
+msgid "Ease-Out Cubic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:875
+msgid "Ease-In OutCubic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:879
+msgid "Ease-In Quart"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:883
+msgid "Ease-Out Quart"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:887
+msgid "Ease-In OutQuart"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:891
+msgid "Ease-In Quint"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:895
+msgid "Ease-Out Quint"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:899
+msgid "Ease-In OutQuint"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:903
+msgid "Ease-In Sine"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:907
+msgid "Ease-Out Sine"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:911
+msgid "Ease-In OutSine"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:915
+msgid "Ease-In Expo"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:919
+msgid "Ease-Out Expo"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:923
+msgid "Ease-In OutExpo"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:927
+msgid "Ease-In Circ"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:931
+msgid "Ease-Out Circ"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:935
+msgid "Ease-In OutCirc"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:939
+msgid "Ease-In Elastic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:943
+msgid "Ease-Out Elastic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:947
+msgid "Ease-In OutElastic"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:951
+msgid "Ease-In Back"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:955
+msgid "Ease-Out Back"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:959
+msgid "Ease-In OutBack"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:963
+msgid "Ease-In Bounce"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:967
+msgid "Ease-Out Bounce"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Data.php:971
+msgid "Ease-In OutBounce"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:77
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php:63
+msgid ""
+"ZipArchive not supported. ZipArchive is needed for Import and Export to work."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:113
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:118
+msgid "Your export file is ready. Click Download."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:118
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:123
+msgid "Error creating exports directory."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:167
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:172
+msgid "No slider selected."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php:172
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:177
+msgid "Please choose a file name."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExportPageNextgen.php:72
+#: includes/plugins/cyclone-slider-2/src/plugin.php:109
+msgid "Export Nextgen"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:52
+msgid "Error no sliders selected."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:73
+msgid "Error encoding data to JSON."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:79
+#, php-format
+msgid "Success generating zip %s."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:109
+#, php-format
+msgid "Exporting data for slider \"%s\"."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:138
+#, php-format
+msgid ""
+"Image %1$d was not found on slide %2$d of slider %3$s. Path to image is %4$s."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:182
+msgid "ZipArchive not supported."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:188
+#, php-format
+msgid "Error opening zip file %s. Code: %s"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:197
+#, php-format
+msgid "Error adding file %s to zip."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:199
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Exporter.php:207
+#, php-format
+msgid "File %s added to zip."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExporterNextgen.php:39
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/NextgenIntegration.php:39
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-nextgen-integration.php:33
+msgid "NextGEN Integration"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExporterNextgen.php:55
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/NextgenIntegration.php:55
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-nextgen-integration.php:53
+msgid "Choose a NextGEN Gallery"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ExporterNextgen.php:67
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/NextgenIntegration.php:67
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-nextgen-integration.php:65
+msgid ""
+"Select a gallery to import images from. Images will be added as new slides."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Frontend.php:101
+#, php-format
+msgid "[Slideshow \"%s\" not found]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Frontend.php:117
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:648
+#, php-format
+msgid "[Template \"%s\" not found]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php:116
+msgid "Import operation success!"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:35
+msgid "Could not read zip files. ZipArchive not supported."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:40
+msgid "No zip file found."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:46
+msgid "Error creating imports directory."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:53
+msgid "Error moving uploaded zip."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:60
+#, php-format
+msgid "Error opening zip: %s"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:73
+#, php-format
+msgid "Security error. Invalid %s file."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:80
+#, php-format
+msgid "Security error. File %s is not an image."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:86
+#, php-format
+msgid "Security error. Missing %s file."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:92
+msgid "Error extracting zip."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:99
+msgid "Failed to read export JSON."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:104
+msgid "Failed to decode JSON."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:175
+#, php-format
+msgid "scandir failed on %s"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:191
+#, fuzzy, php-format
+#| msgid "Product not found!."
+msgid "Source image %s not found."
+msgstr "محصول یافت نشد!."
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/Importer.php:195
+msgid "Copy error."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/SettingsPage.php:51
+msgid "Default options restored."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php:13
+msgid "Cyclone Slider Widget"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php:14
+msgid "Widget for displaying sliders."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php:65
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:21
+msgid "Title:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php:79
+msgid "Select a Slider:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php:94
+msgid "No sliders found."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/cyclone-slider.php:141
+#: includes/plugins/cyclone-slider-2/src/plugin.php:84
+msgid "Cyclone Slider Settings"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/cyclone-slider.php:142
+#: includes/plugins/cyclone-slider-2/src/plugin.php:85
+msgid "Settings"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:7
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:7
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:40
+msgid "Toggle"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:17
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:17
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:10
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:111
+msgid "Get Image"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:20
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:20
+msgid "Extra slide elements:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:24
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:24
+msgid "Slide Link"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:27
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:27
+msgid "Link:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:29
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:29
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:38
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:136
+msgid "Open Link in:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:31
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:31
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:40
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:138
+msgid "Same Window"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:32
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:32
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:41
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:139
+msgid "New Tab or Window"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box-js.php:46
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/admin/box.php:46
+msgid "Description"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:207
+#, php-format
+msgid "Slideshow updated. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:212
+#, php-format
+msgid "Slideshow published. Shortcode is [cycloneslider id=\"%s\"]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:233
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:241
+msgid "Slider Templates"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:306
+#: includes/plugins/cyclone-slider-2/views/slides.php:8
+msgid "Add Slide"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:327
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:3
+msgid "Transition Effects to Use:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:338
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:36
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:25
+msgid "Next Slide Delay:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:340
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:27
+msgid "Milliseconds. 0 to disable auto advance."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:344
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:31
+msgid "Transition Effects Speed:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:346
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:31
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:38
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:33
+msgid "Milliseconds"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:350
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:37
+msgid "Width:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:352
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:358
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:39
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:45
+msgid "pixels."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:356
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:43
+msgid "Height:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:362
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:79
+msgid "Pause on Hover?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:364
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:372
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:380
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:6
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:44
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:66
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:81
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:89
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:97
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:107
+msgid "Yes"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:365
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:373
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:381
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:7
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:45
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:65
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:82
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:90
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:98
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:106
+msgid "No"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:370
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:87
+msgid "Show Prev/Next Buttons?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:378
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:95
+msgid "Show Navigation?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:407
+msgid "Select Template to Use:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/legacy/inc/class-cyclone-slider.php:623
+msgid "[Slideshow not found]"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/plugin.php:95
+msgid "Cyclone Slider Export"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/plugin.php:108
+msgid "Cyclone Slider Nextgen Export"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/src/plugin.php:121
+msgid "Cyclone Slider Import"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/templates/dark/slider.php:40
+msgid "View Larger Image"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/templates/dark/slider.php:43
+#: includes/plugins/cyclone-slider-2/templates/dark/slider.php:45
+msgid "Learn More"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/templates/dark/slider.php:61
+#: includes/plugins/cyclone-slider-2/templates/default/slider.php:62
+#: includes/plugins/cyclone-slider-2/templates/default/slider.php:66
+#: includes/plugins/cyclone-slider-2/templates/default/slider.php:70
+#: includes/plugins/cyclone-slider-2/templates/standard/slider.php:67
+#: includes/plugins/cyclone-slider-2/templates/thumbnails/slider.php:64
+msgid "Slide type not supported."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/templates/dark/slider.php:70
+#: includes/plugins/cyclone-slider-2/templates/standard/slider.php:76
+msgid "Quote Image"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:8
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-2.php:8
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-3.php:8
+msgid "Cyclone Slider Nextgen Exporter"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:18
+msgid "Choose a NextGEN Gallery:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:22
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:22
+msgid "Select All"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:34
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-2.php:28
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:34
+#: includes/plugins/cyclone-slider-2/views/export-step-2.php:28
+msgid "File Name:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:41
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:41
+msgid "No slider to export."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:44
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:44
+msgid "Clear"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-1.php:45
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:45
+msgid "Next"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-2.php:17
+#: includes/plugins/cyclone-slider-2/views/export-step-2.php:17
+msgid "Selected slider(s):"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-2.php:35
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-3.php:21
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-3.php:26
+#: includes/plugins/cyclone-slider-2/views/export-step-2.php:35
+#: includes/plugins/cyclone-slider-2/views/export-step-3.php:21
+#: includes/plugins/cyclone-slider-2/views/export-step-3.php:26
+#: includes/plugins/cyclone-slider-2/views/import-step-3.php:15
+msgid "Back"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-2.php:36
+#: includes/plugins/cyclone-slider-2/views/export-step-2.php:36
+msgid "Generate Export File"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-nextgen-step-3.php:22
+#: includes/plugins/cyclone-slider-2/views/export-step-3.php:22
+msgid "Download"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:8
+#: includes/plugins/cyclone-slider-2/views/export-step-2.php:8
+#: includes/plugins/cyclone-slider-2/views/export-step-3.php:8
+msgid "Cyclone Slider Exporter"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/export-step-1.php:18
+msgid "Select sliders:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/import-step-1.php:8
+#: includes/plugins/cyclone-slider-2/views/import-step-3.php:8
+msgid "Cyclone Slider Importer"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/import-step-1.php:17
+msgid "Import Zip File:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:7
+msgid ""
+"Play with these settings if Cyclone Slider is not working or if you want to "
+"optimize it."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:17
+msgid "Load scripts in:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:20
+msgid "Header"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:21
+msgid "Footer"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:26
+msgid "Load these scripts:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:31
+msgid "Cycle 2. This is the core script needed by the plugin."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:36
+msgid "Cycle 2 - Carousel. Used by these templates: Galleria, Lea, Dos."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:41
+msgid "Cycle 2 - Swipe. For touch swipe events."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:46
+msgid "Cycle 2 - Tile. Used for tile transition effects."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:51
+msgid "Cycle 2 - Video. Used by YouTube template."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:56
+msgid "Magnific Popup - Enable lightbox option."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:56
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:61
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:2
+msgid "Available in pro version."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:61
+msgid "Easing - Enable easing options."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:66
+msgid "Scripts loading priority:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:69
+msgid "Make this value bigger to load scripts last."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:73
+msgid "Load these templates:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:86
+msgid "Legacy Mode:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:91
+msgid "Turn back time to the bygone era of Cyclone Slider 1."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:97
+msgid "Save Options"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/settings-page.php:98
+msgid "Restore Defaults"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:6
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:107
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:12
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:113
+msgid "View Image"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:18
+msgid "Caption"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:25
+msgid "Description:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:31
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:129
+msgid "Link"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:34
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:132
+msgid "Link URL:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:47
+msgid "Image Attributes"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:50
+msgid "Alternate Text:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit-image.php:54
+msgid "Title Text:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:9
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:14
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:103
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:19
+msgid "Image"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:18
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:24
+msgid "YouTube"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:22
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:29
+msgid "Vimeo"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:26
+msgid "Custom"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:30
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:39
+msgid "Testimonial"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:72
+msgid "YouTube URL:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:74
+msgid "Copy and paste a valid YouTube URL here."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:79
+msgid "Do not show suggested videos when the video finishes."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:84
+msgid "Vimeo URL:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:86
+msgid "Copy and paste a valid Vimeo URL here."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:91
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:34
+msgid "Custom HTML"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:99
+msgid "Quote"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:120
+msgid "Author"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-edit.php:123
+msgid "Name:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:5
+msgid "Slide Properties"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:9
+msgid "Hidden:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:18
+msgid "Transition Effects:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:29
+msgid "Effects Speed:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:46
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:12
+msgid "Tile Count:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:48
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:14
+msgid "The number of tiles to use in the transition."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:52
+msgid "Tile Delay:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:54
+msgid "Milliseconds to delay each individual tile transition."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:58
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:17
+msgid "Tile Position:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:60
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:19
+msgid "Vertical"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slide-settings.php:61
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:20
+msgid "Horizontal"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:4
+msgid "Allow Wrap?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:10
+msgid ""
+"Determines if slider wraps to beginning slide if it reaches the end slide."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:15
+msgid "Dynamic Height:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:17
+msgid "Off"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:18
+msgid "On"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:21
+msgid "Adjust slider height depending on current slide."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:26
+msgid "Delay:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:28
+msgid ""
+"Milliseconds to add or substract from the time before the first transition "
+"occurs."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:32
+msgid "Easing:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:38
+msgid "Easing for transition animations."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:42
+msgid "Swipe:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:48
+msgid "Enable swipe gesture support for touch devices."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:53
+msgid "Resize Options:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:61
+msgid ""
+"Fit - (Default) Fit images inside the slideshow maintaining aspect ratio."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:62
+msgid "Fill - Images will fill the entire slideshow with no empty space."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:63
+msgid "Crop - Excess parts of images are removed."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:64
+msgid "Exact - Resize images to exact dimensions ignoring aspect ratio."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:65
+msgid "Exact Width - Resize to exact width."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:66
+msgid "Exact Height - Resize to exact height."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:67
+msgid ""
+"Note: Please clear your browser cache if you are not seeing the changes."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:69
+msgid "Auto - Cyclone Slider decides the resize option."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:70
+msgid "Crop - Resize and remove excess parts."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:71
+msgid "Exact - Resize to exact dimensions."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:72
+msgid "Landscape - Resize to exact width."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:73
+msgid "Portrait - Resize to exact height."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:80
+msgid "Image Quality (JPEG):"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:83
+msgid "Low"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:84
+msgid "Medium"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:85
+msgid "High"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:86
+msgid "Very High"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:87
+msgid "Max"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:91
+msgid "The quality of the generated images. Applies to JPEG images only."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-advanced-settings.php:92
+msgid ""
+"Low = low quality but small file size. Max = Best quality but large file "
+"size."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-codes.php:4
+msgid "Your Shortcode:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-codes.php:6
+msgid ""
+"Copy and paste this shortcode into your Post, Page or Custom Post editor."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-codes.php:10
+msgid "Your PHP Code:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-codes.php:12
+msgid ""
+"Copy and paste this code when you need to display the slider in template "
+"files (header.php, front-page.php, etc.)."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-id.php:5
+msgid "Change the Slideshow ID here."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-preview.php:9
+msgid "Your preview will appear here."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:49
+msgid "Width Management:"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:51
+msgid "Responsive"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:52
+msgid "Full"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:56
+msgid ""
+"Responsive - resizes to smaller size but maximum width will be equal to the "
+"provided width."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:57
+msgid ""
+"Full - the same as responsive but maximum width will be equal to its "
+"container ignoring the provided width."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:58
+msgid "Fixed - width and height are not resized."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:63
+msgid "Resize Images?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:70
+msgid "Force Resize"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:72
+msgid "Yes - resize images to slideshow dimension."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:73
+msgid "No - use the original uploaded image."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:74
+msgid "Force Resize - Regenerate all images and thumbnails."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:100
+msgid "The thumbnails or dots depending on template."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:104
+msgid "Random Slide Order?"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slider-settings.php:109
+msgid "Randomize order of slides on every page visit."
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/slides.php:10
+msgid "Sort"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:6
+msgid "Supported Slides"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:7
+msgid "Location"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:58
+msgid "Learn More About Templates"
+msgstr ""
+
+#: includes/plugins/cyclone-slider-2/views/template-selection.php:59
+msgid "More Templates"
+msgstr ""
+
+#: includes/plugins/vc-elements/price-table.php:45
+msgid "Search Products"
+msgstr ""
+
+#: includes/plugins/vc-elements/price-table.php:46
+msgid "Type something to start searching..."
+msgstr ""
+
+#: templates/woocommerce/notifier/notifier-modal-content.php:35
+#, php-format
+msgid "Email to %s"
+msgstr "ایمیل به %s"
+
+#: templates/woocommerce/notifier/notifier-modal-content.php:47
+#, php-format
+msgid "SMS to %s"
+msgstr "پیامک به %s"
+
+#: thf-customize-wc.php:79
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: thf-customize-wc.php:89
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: thf-customize-wc.php:343
+msgid ""
+"You need to be running version 5.3 of PHP or later to use Themesfa Customize "
+"WooCommerce Plugin. Contact your webhost to have them upgrade your PHP "
+"version"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Themesfa Customize WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://themesfa.net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add new features to WooCommerce"
+msgstr ""

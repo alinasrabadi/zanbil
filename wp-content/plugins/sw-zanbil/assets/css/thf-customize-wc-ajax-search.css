@@ -1,0 +1,55 @@
+/**
+ * Ajax Search
+ */
+
+.ajax-search {
+
+}
+
+.ajax-search .search-result {
+    position: absolute;
+    top: 106%;
+left: 25px;
+right: 25px;
+    z-index: 999;
+    padding: 10px 0;
+    overflow: hidden;
+    background: #fff;
+    border-top: 1px solid #e7e7e7;
+    box-shadow: 0 0 5px rgba(85, 85, 85, .14);
+    border-radius: 0 0 7px 7px;
+
+    letter-spacing: -.4px;
+    font-size: 12px;
+    font-size: .857rem;
+    line-height: 1.833;
+    list-style: none;
+    display: none;
+    font-weight: 700;
+}
+
+.ajax-search .search-result .search-result-body {
+    margin: 0;
+    padding: 0;
+}
+
+.ajax-search .search-result .search-spinner {
+    width: 100%;
+    height: 40px;
+}
+
+.ajax-search .search-result .search-result-body .search-item {
+    border-color: transparent;
+}
+
+.ajax-search .search-result .search-result-body .search-item:hover {
+    background: #fafafa;
+}
+
+.ajax-search .search-result .search-result-body .search-item.search-keyword-link {
+
+}
+
+.ajax-search .search-result .search-result-body .search-item.search-keyword-link .search-keyword {
+    color: #07a1b4;
+}

@@ -1,0 +1,236 @@
+.thf-plugin-realtime-offer {
+    margin-bottom: 10px;
+    max-height: 415px;
+    height: 100%;
+    box-shadow: 0 0 6px rgba(51, 51, 51, 0.1);
+}
+
+.thf-plugin-realtime-offer *, .thf-plugin-realtime-offer :after, .thf-plugin-realtime-offer :before {
+    box-sizing: inherit;
+}
+
+.thf-plugin-realtime-offer * {
+    outline: none !important;
+}
+
+.thf-plugin-realtime-offer aside {
+    display: block;
+}
+
+.thf-plugin-realtime-offer a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.thf-plugin-realtime-offer img {
+    border-style: none;
+}
+
+.thf-plugin-realtime-offer img {
+    line-height: 22px;
+}
+
+.thf-plugin-realtime-offer a {
+    color: #4a5f73;
+    text-decoration: none;
+}
+
+.thf-plugin-realtime-offer .o-page__row--main-page > div > .c-box {
+    height: 100%;
+}
+
+.thf-plugin-realtime-offer .swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.thf-plugin-realtime-offer .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.thf-plugin-realtime-offer .swiper-wrapper {
+    transform: translateZ(0);
+}
+
+.thf-plugin-realtime-offer .swiper-slide {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+    transition-property: transform;
+}
+
+.thf-plugin-realtime-offer ::-webkit-input-placeholder {
+    color: #c6c6c6;
+}
+
+.thf-plugin-realtime-offer ::-moz-placeholder {
+    color: #c6c6c6;
+}
+
+.thf-plugin-realtime-offer :-ms-input-placeholder {
+    color: #c6c6c6;
+}
+
+.thf-plugin-realtime-offer :-moz-placeholder {
+    color: #c6c6c6;
+}
+
+.thf-plugin-realtime-offer .c-box {
+    background-color: #fff;
+    position: relative;
+}
+
+.thf-plugin-realtime-offer .c-box .swiper-container {
+    position: unset;
+    padding-top: 3px;
+}
+
+.thf-plugin-realtime-offer .c-box:first-child {
+    margin-top: 0;
+}
+
+.thf-plugin-realtime-offer .c-box--realtime-offer {
+    border-radius: 3px;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer {
+    text-align: center;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer .swiper-container {
+    height: calc(100% - 57px);
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer .swiper-slide {
+    height: 100%;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__headline {
+    height: 57px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin: 0 13px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__headline:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    box-shadow: 0 0 8px 0 rgba(255, 138, 138, 0.5);
+    border-top-style: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-image-source: linear-gradient(90deg, #ffd3db, #fb3449);
+    border-image-slice: 1;
+    content: "";
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__headline:before {
+    height: 1px;
+    background: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__headline.is-active:after {
+    animation: Fb 7s infinite cubic-bezier(0.17, 0.67, 0.71, 0.99);
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__headline.is-paused:after {
+    animation-play-state: paused;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__img {
+    height: 210px;
+    width: 210px;
+    background: no-repeat 50% 50%;
+    background-size: auto 90%;
+    margin: 11px auto 7px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__img img {
+    height: 210px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__discount {
+    color: #acacac;
+    font-size: 16px;
+    font-size: 1.143rem;
+    line-height: 1.375;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__desc {
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: calc(100% - 252px);
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__title {
+    display: block;
+    font-weight: 500;
+    height: 50px;
+    color: #4f4f4f;
+    padding: 0 10px;
+    overflow: hidden;
+    font-size: 12px;
+    font-size: 0.857rem;
+    line-height: 25px;
+}
+
+.thf-plugin-realtime-offer .c-realtime-offer__price {
+    display: block;
+    font-size: 20px;
+    font-size: 1.429rem;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fb3449;
+    margin-top: 5px;
+}
+
+@keyframes Fb {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

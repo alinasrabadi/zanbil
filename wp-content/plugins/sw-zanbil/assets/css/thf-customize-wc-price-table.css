@@ -1,0 +1,134 @@
+.tcw_table_price {
+	margin-bottom: 10px;
+	padding:0 15px 10px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px 0px hsla(0, 0%, 40%, 0.1);
+}
+.tcw_table_price .list-link {
+    float: left;
+padding: 5px 23px;
+margin: 13px 0;
+border: 1px solid #ddd;
+}
+.tcw_table_price .fa {
+    margin: 0;
+    padding: 0;
+}
+
+.tcw_table_price .svg-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.tcw_table_price a {
+    transition-property: border, background, color;
+    transition-duration: 0.05s;
+    transition-timing-function: ease-in-out;
+}
+
+.tcw_table_price .widefat * {
+    word-wrap: break-word;
+}
+
+.tcw_table_price th.th-product-title,
+.tcw_table_price td.td-product-title {
+}
+
+.tcw_table_price td.td-product-thump img {
+    width: 40px;
+    height: 40px;
+}
+
+.tcw_table_price a, .tcw_table_price div {
+    outline: 0;
+}
+
+.tcw_table_price .widefat {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    border: 0;
+}
+
+
+.tcw_table_price .widefat td {
+    border: 0;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-right: 9px;
+}
+.tcw_table_price .widefat td.td-product-old-price,
+.tcw_table_price .widefat td.td-product-new-price,
+.tcw_table_price .widefat td.td-product-price-change{
+text-align: center;
+padding: 0;
+}
+
+.tcw_table_price .widefat td.td-product-new-price .woocommerce-Price-amount{
+    color: #4caf7e;
+}
+.tcw_table_price .widefat td .woocommerce-Price-amount {
+    font-size: 15px;
+font-weight: normal;
+color: #666;
+}
+.tcw_table_price .widefat td.td-product-status span img {
+    width: 12px;
+margin: 0 auto;
+}
+
+.tcw_table_price .widefat thead tr th {
+background-color: #edfcff;
+color: #047e99;
+border: 1px solid #c7f2fb;
+padding: 6px 8px;
+text-align: center;
+font-weight: normal; 
+}
+
+.tcw_table_price ::-webkit-input-placeholder {
+    color: #72777c;
+}
+
+.tcw_table_price ::-moz-placeholder {
+    color: #72777c;
+    opacity: 1;
+}
+
+.tcw_table_price :-ms-input-placeholder {
+    color: #72777c;
+}
+
+.tcw_table_price .wp-list-table a {
+    transition: none;
+}
+
+@media screen and (max-width: 782px) {
+    body .tcw_table_price * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    }
+
+    .tcw_table_price .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+        position: relative;
+        clear: both;
+        display: block;
+        width: auto !important;
+    }
+
+    .tcw_table_price .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        position: absolute;
+        right: 10px;
+        display: block;
+        overflow: hidden;
+        width: 32%;
+        content: attr(data-colname);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .tcw_table_price .widefat * {
+        word-wrap: normal;
+    }
+}

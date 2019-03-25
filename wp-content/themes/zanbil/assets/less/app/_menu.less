@@ -1,0 +1,915 @@
+#main-menu {
+	position: static;
+	.primary-menu {
+		position: relative;
+		.menu-vertical {
+			.navbar-inverse {
+				background-color: transparent;
+				.nav-pills.nav-css {
+					li.dropdown .dropdown-menu {
+						.menu-imgae, .menu-img {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		&.sticky-menu {
+			max-width: 1170px;
+			width: 100%;
+			background-color: @color;
+			margin: 0 auto;
+		}
+	}
+}
+
+/* =============================================================== */
+/* Dropdown Menu ================================================= */
+.nav-pills {
+	margin-left: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+	>li {
+		float: left;
+		margin-right:10px;
+		&:before {
+			content: "";
+		    width: 100%;
+		    height: 20px;
+		    position: absolute;
+		    bottom: -15px;
+		}
+		.rtl & {
+			float: right;
+			margin-right: 0;
+			margin-left: 10px;
+		}
+		>a {
+			text-transform: uppercase;
+			background-color: transparent;
+			position: relative;
+			padding: 7px 14px;
+			display: block;
+			font-weight: bold;
+			font-size: 14px;
+			&:hover, &:focus {
+				background-color: @color;
+				color:#fff;
+			}
+		}
+		&.active {
+			>a { color: @color; }
+		}
+		&.dropdown {
+			.dropdown-menu {
+				display: block;
+				visibility: hidden; 							
+				top: 100%;
+				padding: 15px 0;
+				.box-shadow(0 0 7px 0 #acacac);
+				border:0;
+				min-width: 200px;
+				.border-radius(4px);
+				.opacity(0);
+				.transition( all .3s );
+				li {
+					width: 100%;
+					>a {
+						position: relative;
+						display: block;
+					    padding: 12px 25px;
+					    color:#777;
+					    font-weight: 500;
+						&:hover {
+							color: @color;
+						}
+					}
+					&.active {
+						a {
+							color:@color;
+						}
+					}
+					&.dropdown-submenu {
+						position: relative;
+						.dropdown-menu {
+							position: absolute;
+							top: -16px;
+							left: 110%;
+							visibility: hidden; 
+							margin: 0;
+							.opacity(0);
+							.transition( all .3s );
+							.rtl & {
+								left: auto;
+								right: 110%;
+							}
+						}
+					}				
+				}
+				>.dropdown-submenu:hover {
+					>.dropdown-menu {
+						left: 100%;
+						visibility: visible; 
+						.opacity(1);
+						.rtl & {
+							left: auto;
+							right: 100%;
+						}
+					}
+				}				
+			}
+			&:hover {
+				&:before {
+					visibility: visible;
+					.opacity(1);
+				}
+				.dropdown-menu {
+					top: 125%;
+					visibility: visible; 
+					.opacity(1);
+				}				
+			}
+			
+		}
+		&.active {
+			>a, >a:hover, >a:focus {
+				background-color: @color;
+				color:#fff;
+			}
+		}
+	}
+	.dropdown-menu {
+		li {
+			&.active, &:hover {
+				>a {
+					color: @color;
+					background-color: transparent;
+				}
+			}
+		}		
+	}
+}
+
+/* =============================================================== */
+/* Mega Menu ===================================================== */
+ .nav-pills.nav-mega {
+	.himarket-mega-menu {
+		.dropdown-menu {
+			padding: 20px 15px;
+			width: 100%;
+			visibility: hidden;
+			li {
+				&.active >a, &:hover >a {
+					background-color: transparent;
+				}
+			}
+			>li {
+				float: left;
+				padding: 0 15px;
+				&.image-full {
+					width: 100% !important;
+					padding-top: 0;
+					>a {
+						border-bottom: 0;
+						font-size: 14px;
+						text-transform: uppercase;
+						padding: 7px 20px;
+						.menu-title {
+							display: none;
+						}
+					}
+					img {
+						width: 100%;
+					}
+				}
+				.item-bottom {
+					display: none;
+				}
+				.rtl & {
+					float: right;
+				}
+			}
+			.dropdown-submenu {			
+				>a, >.have-title {
+					text-transform: uppercase;
+					font-weight: 600;
+				    padding: 10px 0;
+					display: block;
+		    		color: #333;
+				}
+				.dropdown-sub {
+					a {
+						padding: 10px 0;
+					    text-transform: capitalize;
+					    color: #777;
+					    font-weight: 500;
+					    &:hover {
+					    	color:@color;
+					    }
+					}
+					>li {
+						.menu-img {
+							float: left;
+							width: 25px;
+							margin-right: 15px;
+							.rtl & {
+								float: right;
+								margin-right: 0;
+								margin-left: 15px;
+							}
+						}
+						&.active {
+							a {
+								color:@color;
+							}
+						}
+
+					}
+				}
+			}
+			&.column-1 {
+				min-width: 1170px;
+				>li {
+					width: 100%;
+				}
+			}
+			&.column-2 {
+				min-width: 395px;
+				>li {
+					width: 50%;
+				}				
+			}
+			&.column-3{
+				min-width: 720px;
+				>li {
+					width: 33.33%;
+				}
+			}	
+			&.column-4 {
+				min-width: 815px;
+				>li {
+					width: 25%;
+				}
+			}
+			&.column-5 {
+				min-width: 1170px;
+				>li {
+					width: 20%;
+				}
+			}	
+
+			.himarket-menu-img {
+				>a {
+					padding: 15px 0 0 0;
+					&:before {
+						display: none;
+					}
+				}
+				&:hover {
+					img {
+						.opacity(0.75);
+					}
+				}
+			}
+			.menu-shortcode {
+				>a {
+					display: none;
+				}
+			}
+
+		}	/* end .dropdown-menu */
+		&.custom-image-col5 {
+			.dropdown-menu.column-5 {
+				>li {
+					width: 18%;
+					&.himarket-menu-img {
+						width: 28%;
+					}
+				}
+			}
+		}
+		&.custom-mega-product {
+			.dropdown-menu {
+				padding: 0;
+				>li {
+					padding: 0;
+				}
+			}
+		}
+		&:hover {
+			.dropdown-menu {
+				visibility: visible;
+				.listing-tab-shortcode .tabbable.tabs .tab-content {
+					visibility: visible;
+				}
+			}
+		}
+	}	/* end .himarket-mega-menu  */
+
+	.himarket-menu-custom  {
+		.dropdown-menu {
+			.menu-img {
+				display: none;
+			}
+			li >.have-title {
+			    position: relative;
+			    display: block;
+			    padding: 12px 25px;
+			    &:before {
+		    	    content: "\f111";
+				    font-family: fontawesome;
+				    font-size: 6px;
+				    display: inline-block;
+				    vertical-align: middle;
+				    padding-right: 8px;
+				    .rtl & {
+				    	padding-right: 0;
+				    	padding-left: 8px;
+				    }
+			    }
+			}
+			.dropdown-submenu {
+				>ul {
+					position: absolute;
+					background-color: #fff;
+					left: 110%;
+					top: 0;
+					padding: 15px 0;
+					visibility: hidden;
+					.opacity(0);
+					.transition(all .3s);
+					.rtl & {
+						left: auto;
+						right: 110%;
+					}
+					>li {
+						position: relative;
+						ul {
+							padding: 15px 0;
+							position: absolute;
+							background-color: #fff;
+							left: 110%;
+							top: 0;
+							visibility: hidden;
+							.opacity(0);
+							.transition(all .3s);
+							.rtl & {
+								left: auto;
+								right: 110%;
+							}
+							>li:hover {
+								>ul {
+									left: 100%;
+									visibility: visible;
+									.opacity(1);
+									.rtl & {
+										left: auto;
+										right: 100%;
+									}
+								}
+							}
+						}
+						&:hover {
+							>ul {
+								left: 100%;
+								visibility: visible;
+								.opacity(1);
+								.rtl & {
+									left: auto;
+									right: 100%;
+								}
+							}
+						}
+					}
+				}
+				&:hover {
+					>ul {
+						left: 100%;
+						visibility: visible;
+						.opacity(1);
+						.rtl & {
+							left: auto;
+							right: 100%;
+						}
+					}
+				}
+			}
+		}
+	}	/* end .himarket-menu-custom  */
+} /* end  .nav-pills.nav-mega  */
+/**
+	Vertical Mega Menu
+**/
+	.vertical-megamenu{
+	    position:relative;
+	    z-index:543;
+	    background:#fff;
+	    padding: 15px 0px 24px 0px;
+	    margin:0;
+	    .box-shadow(0px 3px 7px 0 #d3d3d3);
+	    border-bottom-left-radius: 4px;
+	    border-bottom-right-radius: 4px;
+		> li{
+			display: block;
+			float: none;
+			line-height: normal;
+            padding: 0 20px 0 30px;
+            &.showMore {
+            	a {
+            		background: none;
+            		color:@color;
+            		&.close-more-cat {
+            			&:before {
+            				content: "\f068";
+            			}
+            		}
+            		&:before {
+            			content: "\f067";
+            			position: absolute;
+            			left:0;
+            			font-family: FontAwesome !important;
+            			font-size: 8px;
+					    top: 50%;
+					    margin-top: -4px;
+					    color:@color;
+					    .rtl & {
+					    	left: auto;
+					    	right: 0;
+					    }
+
+            		}
+            	}
+            }
+            .rtl & {
+            	padding:0 30px 0 20px;
+            }
+			.sidebar &{
+				line-height: normal;
+				list-style: none;
+				> a{
+					display: block !important;
+					color: #a8a8a8;
+					padding: 12px 15px;
+					&:hover{
+						background: #383838;
+						color: #a8a8a8;
+					}
+				}
+			}
+			&:hover {
+				background: @color;
+				&.showMore {
+					a {
+						background: none;
+						&:before {
+							color:#fff;
+						}
+					}
+				}
+				> a {
+					color:#fff;
+					background-position: left -696px;
+					.rtl & {
+						background-position: right -728px;
+					}
+				}
+				&.active,.open {
+					> a {
+						color:#fff;
+					}
+				}
+			}
+			&.dropdown {
+				 > a {
+				 	 &:after {
+				 	 	content: "\f0da";
+					    font-family: FontAwesome !important;
+					    position: absolute;
+					    right: 0;
+					    top: 50%;
+					    margin-top: -7px;
+				 	 }
+				 }
+			}
+			> a{
+				display: block;
+			    position: relative;
+			    font-size: 14px;
+			    padding: 9px 16px 8px;
+			    font-weight: 500;
+			    background: url('../assets/img/icon_general.png') no-repeat left -632px;
+			    .rtl & {
+			    	 background-position: right -664px;
+			    }
+				.menu-img{
+					display: inline-block;
+					position: absolute;
+					left: 15px;
+					top: 9px;
+				}
+			}
+			&.himarket-menu-img{
+				>a {
+					padding: 12px 15px 12px 50px;
+				}
+			}
+			&.active > a, &.open > a{
+				color: @color;
+			}
+			> .dropdown-menu{
+				display: none;
+			
+				left: 100%;
+				top: 0;
+				padding:0;
+				margin-top: 0;
+				.border-radius(0);
+				opacity: 0;
+				.transition(all 0.3s ease-out);
+				&:before{
+					content: "";
+					background: transparent;
+					position: absolute;
+					top: -1px;
+					bottom: 0;
+					width: 15px;
+					left: -15px;
+				}
+				.dropdown-submenu{
+					min-width: 150px;
+					padding: 20px;
+				}
+			}
+			&.open, &:hover{
+				> .dropdown-menu{
+					display:block;
+					opacity: 1;
+				}
+			}
+			&.himarket-menu-custom,&.menu_dropdown{
+				ul {
+					.box-shadow(0 0 7px 0 #acacac);
+					.border-radius(4px);
+					border:0;
+					padding: 25px 0;
+					li {
+						padding: 0 30px;
+						a {
+							padding: 5px 0px 5px 16px;
+						}
+					}
+				}
+				> .dropdown-menu{
+					> li{
+						line-height: 30px;
+						list-style: none;
+						position: relative;
+						min-width: 245px;
+						padding: 0 20px 0 30px;
+						&.menu-img-menu,&.menu-html-menu{display:none;}
+
+						a{
+							display: block;
+							color:#555;
+							font-weight: 500;
+							line-height: 25px;
+							position: relative;
+							background: url('../assets/img/icon_general.png') no-repeat left -633px;
+							&:hover {
+							   color:@color;
+						    }					
+						}
+						&.dropdown-submenu{
+							> a:after {
+									content: "\f054";
+									 font-family: FontAwesome;
+									 position: absolute;
+									 right:0;
+									 top: 50%;
+									 font-size: 10px;
+									 height: 20px;
+									 margin-top: -12px;
+									 color: #777;
+							}			
+						}
+						.dropdown-sub,.dropdown-menu{
+							position:absolute;
+							left:100%;
+							top:-1px;
+							margin:0;
+							.transform_origin(left, top);
+							.scale(0);
+							list-style: none;
+							box-shadow: 0px 0px 1px 1px #ddd;
+							background: #fff;
+							min-width: 230px;
+							z-index:1;
+							.transition(all 0.3s ease-out);
+					
+							.rtl &{
+								left:auto;
+								right:100%;
+								&:before{
+									background:none;
+									width:0px;
+								}
+								&:after{
+									background-color: transparent;
+									content: " ";
+									height: 100%;
+									right: -20px;
+									position: absolute;									 
+									top: 0;				
+									width: 20px;
+									display: block;
+								}
+							}
+							&:before{
+								background-color: transparent;
+								content: " ";
+								height: 100%;
+								left: -20px;
+								position: absolute;
+								top: 0;				
+								width: 20px;
+								display: block;
+							}
+						}
+						&:hover > .dropdown-sub,&:hover > .dropdown-menu{
+							display: block;	
+							.scale(1);									
+						}
+					}
+				}
+			}
+			&.himarket-mega-menu{
+				ul.dropdown-menu {
+					.box-shadow(0 0 7px 0 #acacac);
+					.border-radius(4px);
+					border:0;
+				}
+			    &.col-2-img {
+					     > .dropdown-menu{
+							&.column-3{
+							   padding:0;
+							   min-width:630px;
+							}
+						  > .dropdown-submenu {
+						       &.col-1{
+									 padding: 27px 30px;
+									 span.have-title {
+									   text-transform: capitalize;
+									 }
+									 &:nth-child(2){
+									      padding: 27px 0px 27px 60px;
+									 }
+								}
+						  }
+					   }
+				}
+				> .dropdown-menu{
+				    &.column-3{
+					   
+					   padding:20px 0;
+					}
+					> .dropdown-submenu{
+					    &.col-1{
+						   padding: 7px 30px;
+									 span.have-title {
+									   text-transform: capitalize;
+									 }
+						}
+					
+					     &.column-2{
+						    width:33.333333%;
+							max-width: 187px;
+							min-width:0;
+							padding: 35px 0px 0px 30px;
+							margin-right: 7px;
+						 }
+						min-width: 150px;
+						float: left;
+						> a, > span.have-title{
+						    padding:0;
+							margin-bottom: 8px;
+							display: block;
+                            font-size:14px;
+                            color:#333;
+							font-weight:600;
+							text-transform: uppercase;
+							&:hover{
+								background: none;
+								color:#444;
+							}
+						}
+						.dropdown-sub{
+						    margin-left:0;
+							> li{
+								> a{
+									padding: 5px 0px;
+									line-height: 29px;
+									font-weight: 500;
+                                    color: #777;
+									&:hover {
+									   color:@color !important;
+									   background:none !important;
+									}
+								}
+							}
+						}
+						
+						&.column-3{
+						    padding: 0px 5px 0px 25px;
+							border-right: 1px solid #ddd;
+							width: 29%;
+						}
+					}
+					.menu-new-arrivals.column-3 {
+					      padding-top: 10px;
+						    margin: 0 30px;
+						  border-top: 1px solid #ccc;
+					    .have-title {
+						   display: block;
+						   font-size:14px;
+						   text-transform:uppercase;
+						   font-weight:700;
+						   margin-bottom: 20px;
+						}
+						.woocommerce {
+						  margin:0;
+						  width:100%;
+						  .products-loop.products-loop li {
+						     width:50%;
+							 .products-entry {
+							      padding:0;
+								  min-height:inherit;
+							      .products-thumb {
+								     width:86px;
+									 float:left;
+									 overflow:hidden;
+								  }
+								  .products-content {
+								     float:left;
+								  }
+							 }
+						  }
+						}
+					}
+					.column-2{
+					    width: 79% !important;
+						padding: 25px 0px 0px 0px;
+						float:left;
+						display:inline-block;
+						font-weight:700;
+						&.menu-img-menu {
+						    position: absolute;
+						    top: 0;
+						    right: 0;
+						    clear: none;
+						    max-width: 319px;
+						    padding: 0;
+						}
+						&.menu-html-menu{
+						    width:100% !important;
+						    .tag-menu {
+								padding: 0 30px;
+								background-color: #eee;
+								position: relative;
+								height: 50px;
+								line-height: 50px;
+								ul {
+								    margin-left:0;
+									li {
+										float: left;
+										margin-right: 4px !important;
+										color:#444;
+										font-weight:700;
+										font-size:14px;
+										a {
+										    font-weight:400;
+										}
+									}
+								}
+								
+							}
+						}
+					}
+					.column-3{
+					    &.menu-product{
+						      min-width: 208px;
+							  width: 40%;
+							  float: left;
+						}
+					     
+					    .item-bottom{
+									   display:none;
+									}
+						.woocommerce {
+						    display: inline-block;
+							margin-left: 15px;
+							margin-right: 15px;
+							padding-top:0;
+							.products-loop.products-loop {
+							    li {
+								     width:100%;
+								       .products-entry {
+											margin-bottom:0;
+											border:0;
+											.products-thumb{
+											  width:160px;
+											  border:0;
+											  margin-bottom:10px;
+											  .onsale {
+											    top:0;
+												left:0;
+											  }
+											}
+											.products-content{
+											   margin-left:0;
+											   margin-right:0;
+											   .desc {
+											     display:none;
+											   }
+											}
+										}
+									&.col-lg-6 ,&.col-sm-6 {
+									    .products-entry {
+										  padding-left:0 !important;
+										
+										}
+									}
+								}
+							    
+							}
+							
+						}
+					}
+				}
+				.column-1{
+					min-width: 556px;
+					padding: 30px 0px 30px 0px;
+					> li:nth-child(2n){
+						clear: both;
+					}
+					&.menu-img-menu {
+						    position: absolute;
+							top: 0px;
+							padding: 0;
+							right: 0;
+							max-width: 286px;
+						    min-width: 286px;
+				    }
+					.dropdown-submenu {
+					    padding: 15px 65px 9px 40px;
+					}
+				}
+				.column-2{
+					width: 653px;
+					padding:0;
+					> li:nth-child(2n+1){
+						clear: both;
+					}
+				}
+				.column-3{
+				    min-width: 510px;
+					.woocommerce{
+					   padding-top:10px;
+					   .products-grid li{
+					     margin-bottom: 0px;
+					   }
+					}
+					> li:nth-child(3n+1){
+						clear: both;
+					}
+				}
+				.column-4{
+					min-width: 760px;
+					padding: 20px;
+					> li:nth-child(4n+1){
+						clear: both;
+					}
+					> li {
+						.menu-img img {
+							margin-bottom: 25px;
+						}
+						> .menu-title {
+							font-weight: 600;
+                            color: #333;
+						}
+					}
+				}
+				.column-5{
+					min-width: 800px;
+					> li:nth-child(5n+1){
+						clear: both;
+					}
+				}
+				.column-6{
+					min-width: 960px;
+					> li:nth-child(6n+1){
+						clear: both;
+					}
+				}
+			}
+		}
+	}

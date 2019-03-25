@@ -1,0 +1,313 @@
+// TODO: css for shortcodes.
+
+/* ========================================================== */
+/* Quote Border ============================================= */
+.quote-border{	
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+    border: 1px solid #ddd;
+    .border-radius(3px);
+}
+/* ========================================================== */
+/* Video ==================================================== */
+iframe{
+	border:none;
+	margin-bottom:10px;
+	max-width:100%;
+}
+/* =========================================================== */
+/* Ya Why Choose Us  ========================================= */
+.block-whychoose {
+	margin-bottom:30px !important;
+	display:inline-block;
+	.image-whychoose{
+		float:left;
+		width:64px;
+		.rtl &{
+			float:right;
+		}
+	}
+	.content-whychoose{
+		margin-left:80px;
+		.rtl &{
+			margin-right:80px;
+			margin-left:0;
+		}
+		h2{
+			color:#000;
+			font-size:13px;
+			text-transform:uppercase;
+		}
+		.description{
+			color:#666;
+		}
+	}
+}
+
+/*========================================================*/
+/* Search Faqs ===========================================*/
+.vc_wp_search .widget_search .searchform{
+	.screen-reader-text{
+		display:none;
+	}
+	input[type="submit"]{
+		text-indent:-9999px;
+		display:block;
+		border:0;
+		width:34px !important;
+		height:34px;
+		background: url('../assets/img/search-icon.png') no-repeat scroll center center #666 !important;
+		&:hover{
+		background: url('../assets/img/search-icon.png') no-repeat scroll center center @color !important;
+		}
+	}
+	input[type="text"]{
+		border:1px solid #e1e1e1;
+	}
+}
+/* ======================================================================== */
+/* Titlte ================================================================= */
+.wpb_single_image .vc_single_image-wrapper {
+	img {
+		&:hover {
+			.opacity(.75);
+		}
+	}
+}
+/* =================================================================== */
+/* =================================================================== */
+#wp-calendar {
+	width: 100%;
+	caption {
+		padding: 10px 0;
+		text-align: center;
+	}
+	tr {
+		th {
+			text-align: center;
+		}
+		td {
+			padding: 10px 0;
+		}
+	}
+}
+/* ======================================================== */
+/* ======================================================== */
+#subscribe_popup {
+	text-align: center;
+    .border-radius(4px);
+    display: none;
+    height: 420px;
+    padding: 95px 400px 56px 30px;
+	.subscribe-popup-container {
+		.description {
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			color:@color;
+			text-transform: uppercase;
+		}
+		.title {
+			font-size: 23px;
+			color: #333;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: 35px;
+		}
+		.subscribe-form {
+			margin-bottom: 30px;
+			.form-subcribe {
+				padding: 0;
+				h3 {
+					display: none;
+				}
+				.frm-input {
+					margin: 0;
+					width: auto;
+					.border-radius(0);
+					position: relative;
+					.frm-email {
+						padding: 0 20px;
+						height: 46px;
+						line-height: 46px;
+						overflow: hidden;
+						display: block;
+						margin: 0 auto 30px;
+						font-size: 13px;
+						width: 415px;
+						max-width: 100%;
+						border:0;
+						.box-shadow(0 3px 3px #ddd);
+						.border-radius(4px);
+						&::-webkit-input-placeholder {
+						   color: #777;
+						}
+
+						&:-moz-placeholder { /* Firefox 18- */
+						   color: #777;     
+						}
+
+						&::-moz-placeholder {  /* Firefox 19+ */
+						   color: #777;  
+						}
+
+						&:-ms-input-placeholder {  
+						   color: #777; 
+						}
+						
+					}
+					.frm-submit {
+						top: 50%;
+					    margin-top: -7px;
+					    position: absolute;
+					    background: none;
+					    border: 0;
+					    right: 15px;
+					    font-size: 0;
+					    &:before {
+					    	font-family: FontAwesome !important;
+					    	font-size: 12px;
+					    }
+					    .rtl & {
+					    	right:auto;
+					    	left:15px;
+					    }
+					}
+				}
+			}
+		}
+		.subscribe-checkbox {
+			line-height: 30px;
+
+			input {
+				cursor: pointer;
+				vertical-align: top;
+				margin-top: 5px;
+				margin-right: 5px;
+				.rlt & {
+					margin-right: 0;
+					margin-left: 5px;
+				}
+			}
+			label {
+				vertical-align: top;
+				line-height: 25px;
+				margin: 0;
+				font-weight: normal;
+				color: #555;
+			    font-weight: 500;
+			    font-size: 13px;
+			    cursor: pointer;
+			}
+		}
+		.socials-footer {
+			margin: 0;
+            list-style-type: none;
+            display: table;
+            margin: 0 auto 35px;
+            > li {
+			    float: left;
+			    margin-left: 10px;
+			    .rtl & {
+			    	float: right;
+			    	margin-left: 0;
+			    	margin-right: 10px;
+			    }
+				a {
+				    display: inline-block;
+				    width: 40px;
+				    height: 40px;
+				    font-size: 14px;
+				    color: #fff;
+				    border-radius: 50%;
+				    background-color: #333;
+				    text-align: center;
+				    line-height: 40px;
+				    &:hover {
+				    	background-color: @color;
+				    }
+				}
+			}
+		}
+	}
+}
+
+.sw-instagram-gallery {
+	.intagram-gallery-content {
+		margin: 0 -1px;
+	    display: inline-block;
+		vertical-align: top;
+		.item {
+			padding: 1px;
+			&:hover {
+				img {
+					.opacity(0.7);
+				}
+			}
+		}
+		&.col_1 {
+			.item {
+				width: 100%;
+			}
+		}
+		&.col_2 {
+			.item {
+				width: 50%;
+			}
+		}
+		&.col_3 {
+			.item {
+				width: 33.333%;
+			}
+		}
+		&.col_4 {
+			.item {
+				width: 25%;
+			}
+		}	
+		&.col_5 {
+			.item {
+				width: 20%;
+			}
+		}	
+	}
+}
+.resp-tab {
+	.tab-pane {	
+		height: 0;
+		overflow: hidden;	
+		display: block;
+		.res-button {
+			display: none !important;
+		}
+		&.active { 
+			height: auto;
+			overflow: visible;
+			.res-button {
+				display: block !important;
+			}
+
+		}
+	}	
+}
+.countdown-slider {
+	.item-countdown {
+		.item-wrap {
+			border-left: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            .rtl & {
+            	border-left: 0;
+            	border-right:1px solid #ddd;
+            }
+		}
+		&.slick-current {
+			border-left-color: transparent;
+			.rtl & {
+				border-right-color: transparent;
+				border-left-color: #ddd;
+			}
+		}
+	}
+}

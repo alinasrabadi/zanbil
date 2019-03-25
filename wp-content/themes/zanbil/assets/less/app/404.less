@@ -1,0 +1,118 @@
+.wrapper_404 {
+	background: url('../assets/img/bg-404.jpg') no-repeat center center;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	.content_404 {
+		padding-top: 170px;
+		padding-bottom: 90px;
+		.block-top {
+			margin-bottom: 115px;
+			h1 {
+				color: @color;
+				font-size: 50px;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+				font-weight: bold;
+			}
+			.warning-code {
+				font-size: 16px;
+				font-weight: 600;
+				color:#222;
+				
+			}
+		}
+		.block-middle {
+			margin-bottom: 50px;
+			.note {
+				margin-bottom: 20px;
+				color:#222;
+				font-weight: 600;
+			}
+			.himarket_search_404 {
+				.top-search {
+					.topsearch-entry {
+						.form-search {
+							width: 400px;
+							max-width: 100%;
+							height: 52px;
+							line-height: 52px;
+							background-color: #fff; 
+							overflow: hidden;
+							border:1px solid #ddd;
+							margin: auto;
+							position: relative;
+							.border-radius(52px);
+							.search-query {
+								width: 100%;
+								border: 0;
+								margin: 0;
+								height: 52px;
+								line-height: 52px;
+								text-indent: 30px;
+								padding-right: 80px;
+								.border-radius(0);
+								.rtl & {
+									padding-right: 0;
+									padding-left: 80px;
+								}
+							}
+							.form-button {
+								position: absolute;
+								top: 0;
+								bottom: 0;
+								right: 0;
+								width: 60px;
+								background-color: transparent;
+								border: 0;
+								&:before {
+									content: "\f1d8";
+									font-size: 14px;
+									color: #111111;
+									font-family: fontawesome;
+									.transition(all .3s);
+								}
+								&:hover {
+									&:before { color: @color; }
+								}
+								.rtl & {
+									right: auto;
+									left: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.block-bottom {
+			.btn-404 {
+				display: inline-block;
+				vertical-align: top;
+				color: @color;
+				font-weight: bold;
+				text-transform: uppercase;
+				&:hover {
+					color: #222;
+				}
+				.fa {
+					margin: 0 7px;
+				}
+			}
+		}
+	}
+}
+
+@media( max-width: 979px ){
+
+}
+@media( max-width: 768px ){
+
+}
+@media(max-width: 480px){
+
+}
+
+@media(max-width: 480px){
+
+}

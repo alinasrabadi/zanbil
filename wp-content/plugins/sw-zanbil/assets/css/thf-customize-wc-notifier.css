@@ -1,0 +1,115 @@
+/*
+ * Button
+ */
+
+.tcw-product__add {
+    margin-top: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.tcw-product__add *, .tcw-product__add :after, .tcw-product__add :before {
+    box-sizing: inherit;
+}
+
+.tcw-product__add * {
+    outline: none !important;
+}
+
+.tcw-product__add button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.tcw-product__add button {
+    overflow: visible;
+}
+
+.tcw-product__add button {
+    text-transform: none;
+}
+
+.tcw-product__add button {
+    outline: none;
+}
+
+.tcw-product__add button {
+    -webkit-appearance: button;
+}
+
+.tcw-product__add button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+.tcw-product__add button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+.tcw-product__add .btn-notify-me {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    font-size: 18px;
+    font-size: 1.286rem;
+    line-height: 1.222;
+    padding: 16px 98px 16px 18px;
+    background: #7a7a7a none;
+    border: 1px solid #fcfcfc;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: -0.7px;
+}
+
+.tcw-product__add .btn-notify-me:before {
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    right: -15px;
+    top: -20px;
+    background: rgba(255, 255, 255, 0.21);
+    content: "";
+    transform: rotate(15deg);
+}
+
+.tcw-product__add .btn-notify-me:after {
+    content: "";
+    background: url(../images/svg/notification.svg) no-repeat center center;
+    background-size: contain;
+    width: 32px;
+    height: 100%;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1;
+    position: absolute;
+    right: 23px;
+    top: 0;
+}
+
+.tcw-product__add .btn-notify-me:not(.disabled):not(.is-inactive):not([disabled]) {
+    overflow: hidden;
+}
+
+.tcw-product__add .btn-notify-me:not(.disabled):not(.is-inactive):not([disabled]):before {
+    transition: all 0.3s ease-in-out;
+}
+
+.tcw-product__add .btn-notify-me:not(.disabled):not(.is-inactive):not([disabled]):hover:before {
+    width: 530px;
+height: 90px;
+    transform: unset;
+}

@@ -1,0 +1,62 @@
+@import "bootstrap/responsive-utilities.less";
+@import "responsive/max-1280.less";
+@import "responsive/min-1200.less";
+@import "responsive/max-1199.less";
+@import "responsive/min-992-max-1199.less";
+@import "responsive/max-991.less";
+@import "responsive/min-768-max-991.less";
+@import "responsive/max-767.less";
+@import "responsive/max-640.less";
+@import "responsive/min-481-max-640.less";
+@import "responsive/max-480.less";
+@import "responsive/max-360.less";
+@import "responsive/max-320.less";
+@media (min-width: 1500px) and (max-width:1920px) {
+    .page-template-page-home-2 .left-col {
+        padding-top: 158px !important;
+    }
+}
+@media (min-width: 1200px) {    
+    .clear_lg {
+        clear: both;
+    }
+    .page-template-page-home-2 {
+        .left-col {
+            padding-top: 133px;
+        }
+    } 
+    .box-layout {
+            .body-wrapper{
+                width: 1200px;
+                margin: 0 auto;
+                box-shadow: 0 0 30px rgba(0,0,0, 0.3);
+                background: #fff;
+                overflow: hidden
+            }
+      }
+}
+@media (max-width: 1199px) {
+    .clear_md {
+        clear: both;
+    }
+}
+
+@media (max-width: 991px) { 
+    .clear_md {
+        clear: none;
+    }
+    .clear_sm {
+        clear: none;
+    }
+    #cpanel-form a.cpanel-control {
+        display: none;
+    }
+}
+@media (max-width: 767px) { 
+    .clear_xs {
+        clear: both;
+    }
+    .rtl .col-lg-1, .rtl .col-lg-2, .rtl .col-lg-3, .rtl .col-lg-4, .rtl .col-lg-5, .rtl .col-lg-6, .rtl .col-lg-7, .rtl .col-lg-8, .rtl .col-lg-9, .rtl .col-lg-10, .rtl .col-lg-11 {
+        float: none;
+    }
+}

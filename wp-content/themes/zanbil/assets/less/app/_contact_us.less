@@ -1,0 +1,155 @@
+
+.wp_left_contact {
+	color: #777;
+	line-height: 22px;
+
+	h4 {
+		margin-bottom: 20px;
+		color: #333333;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	p {
+		padding-bottom: 22px;
+        border-bottom: 1px solid #f3f3f3;
+        margin-bottom: 0;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		color: #666666;
+		li {
+			padding: 15px 0 12px;
+		    display: inline-block;
+		    width: 100%;
+		    border-bottom: 1px solid #ddd;
+		    font-size: 12px;
+		    &:last-child {
+		    	border-bottom: 0;
+		    }
+			a {
+				color: #666666;
+				&:hover {
+					color: @color;
+				}
+			}
+			&.address i { 
+				font-size: 21px;
+			    margin-right: 20px;
+			    height: 34px;
+                line-height: 34px;
+			    float: left;
+			    color:#b3b3b3;
+				.rtl & {
+					margin-right: 0;
+					margin-left: 20px;
+					float: right;
+				} 
+			}
+			&.email i { 
+                font-size: 16px;
+			    color: #b3b3b3;
+			    margin-right: 17px;
+			    .rtl & {
+			    	margin-left: 17px;
+			    	margin-right: 0;
+			    }
+			 }
+			&.phone i{
+				font-size: 16px;
+				color:#b3b3b3;
+				margin-right: 20px;
+				.rtl & {
+			    	margin-left: 20px;
+			    	margin-right: 0;
+			    }
+			}
+		}
+	}
+}
+.wpb_gmaps_widget .wpb_wrapper {
+	padding: 0;
+	.wpb_map_wraper {
+		border: 5px solid #fff;
+	}
+}
+.form-contact {
+	h4 {
+		color:#333;
+		font-size: 18px;
+		font-weight: 600;
+	}
+}
+.wpcf7{
+	.wp-input {
+		margin: 0 -15px;
+		.wpcf7-form-control-wrap{
+			width:33.333%;
+			float: left;
+			padding: 0 15px;
+			input{
+				width:100%;
+				.border-radius(0);
+			}
+			input::-webkit-input-placeholder {
+		        color: #555;
+		    }
+		    input::-moz-placeholder {  
+		        color: #555;  
+		    }
+		    input:-ms-input-placeholder {  
+		        color: #555; 
+		    }
+			.wpcf7-text{
+				height:40px;
+				border:1px solid #ddd;
+				color:#555;
+				padding:10px 20px;
+				margin-bottom:20px;
+				.border-radius(4px);
+
+			}
+		}
+	}
+	textarea{
+		padding:10px 20px;
+		height:40px;
+		border:1px solid #ddd;
+		width:100%;
+		min-height:150px;
+		.border-radius(4px);
+	}
+	textarea::-webkit-input-placeholder {
+        color: #555;
+    }
+    textarea::-moz-placeholder {  
+        color: #555;  
+    }
+    textarea:-ms-input-placeholder {  
+        color: #555; 
+    }
+
+	&.your-message{
+		float:none;
+		clear:both;
+	}
+	.wpcf7-submit{
+		margin-top:10px;
+		color:#fff;
+		font-size:12px;
+		text-transform:uppercase;
+		border:0;
+		background-color:#222;
+		height:42px;
+		line-height:42px;
+		padding:0 20px;
+		font-weight: 600;
+		.border-radius( 4px);
+		.rtl &{
+			float: right;
+		}
+		&:hover{
+			background-color:@color;
+		}
+	}
+}

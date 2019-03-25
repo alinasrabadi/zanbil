@@ -1,0 +1,214 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 12:53:49
+* VERSION: 1.3.8
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		5.6.32 | SAPI: apache2handler
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/5.6.32 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT:	/Applications/MAMP/htdocs/projects/zanbil
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://zanbil.com/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190309_Zanbil3_1_ec355f626a8479ae6040_20190312102618_archive.zip
+SIZE:	62.89MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Applications/MAMP/htdocs/projects/zanbil/20190309_Zanbil3_1_ec355f626a8479ae6040_20190312102618_archive.zip' -d '/Applications/MAMP/htdocs/projects/zanbil' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+- PASS: Existing WordFence '.user.ini' was removed
+
+STEP-1 COMPLETE @ 12:54:10 - RUNTIME: 20.9020 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:54:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.38 -- Build Server: 10.0.37
+FILE SIZE:	dup-database__ec355f6-12102618.sql (3.93MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/projects/zanbil/dup-installer/dup-installer-data__ec355f6-12102618.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.38] is less than the build version [10.0.37].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	7660
+
+avn_commentmeta: (23)
+avn_comments: (11)
+avn_duplicator_packages: (0)
+avn_links: (0)
+avn_options: (401)
+avn_postmeta: (4909)
+avn_posts: (1003)
+avn_term_relationships: (735)
+avn_term_taxonomy: (106)
+avn_termmeta: (174)
+avn_terms: (106)
+avn_usermeta: (67)
+avn_users: (1)
+avn_wc_download_log: (0)
+avn_wc_webhooks: (0)
+avn_woocommerce_api_keys: (0)
+avn_woocommerce_attribute_taxonomies: (14)
+avn_woocommerce_downloadable_product_permissions: (0)
+avn_woocommerce_ir: (0)
+avn_woocommerce_ir_sms_archive: (1)
+avn_woocommerce_ir_sms_contacts: (0)
+avn_woocommerce_log: (0)
+avn_woocommerce_order_itemmeta: (0)
+avn_woocommerce_order_items: (0)
+avn_woocommerce_payment_tokenmeta: (0)
+avn_woocommerce_payment_tokens: (0)
+avn_woocommerce_sessions: (1)
+avn_woocommerce_shipping_zone_locations: (2)
+avn_woocommerce_shipping_zone_methods: (7)
+avn_woocommerce_shipping_zones: (2)
+avn_woocommerce_tax_rate_locations: (0)
+avn_woocommerce_tax_rates: (0)
+Removed '62' cache/transient rows
+
+INSERT DATA RUNTIME: 6.9982 sec.
+STEP-2 COMPLETE @ 12:54:44 - RUNTIME: 7.0300 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 12:55:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+avn_commentmeta~ (23)
+avn_comments~ (11)
+avn_duplicator_packages^ (0)
+avn_links^ (0)
+avn_options~ (401)
+avn_postmeta~ (4909)
+avn_posts~ (1003)
+avn_term_relationships~ (735)
+avn_term_taxonomy~ (106)
+avn_termmeta~ (174)
+avn_terms~ (106)
+avn_usermeta~ (67)
+avn_users~ (1)
+avn_wc_download_log^ (0)
+avn_wc_webhooks^ (0)
+avn_woocommerce_api_keys^ (0)
+avn_woocommerce_attribute_taxonomies~ (14)
+avn_woocommerce_downloadable_product_permissions^ (0)
+avn_woocommerce_ir^ (0)
+avn_woocommerce_ir_sms_archive~ (1)
+avn_woocommerce_ir_sms_contacts^ (0)
+avn_woocommerce_log^ (0)
+avn_woocommerce_order_itemmeta^ (0)
+avn_woocommerce_order_items^ (0)
+avn_woocommerce_payment_tokenmeta^ (0)
+avn_woocommerce_payment_tokens^ (0)
+avn_woocommerce_sessions~ (1)
+avn_woocommerce_shipping_zone_locations~ (2)
+avn_woocommerce_shipping_zone_methods~ (7)
+avn_woocommerce_shipping_zones~ (2)
+avn_woocommerce_tax_rate_locations^ (0)
+avn_woocommerce_tax_rates^ (0)
+--------------------------------------
+Search1:	'@yavari-partshop.com' 
+Change1:	'@zanbil.com' 
+Search2:	'%40yavari-partshop.com' 
+Change2:	'%40zanbil.com' 
+Search3:	'/home/yavaripa/public_html/tz3' 
+Change3:	'/Applications/MAMP/htdocs/projects/zanbil' 
+Search4:	'\/home\/yavaripa\/public_html\/tz3' 
+Change4:	'\/Applications\/MAMP\/htdocs\/projects\/zanbil' 
+Search5:	'%2Fhome%2Fyavaripa%2Fpublic_html%2Ftz3%2F' 
+Change5:	'%2FApplications%2FMAMP%2Fhtdocs%2Fprojects%2Fzanbil%2F' 
+Search6:	'\home\yavaripa\public_html\tz3' 
+Change6:	'/Applications/MAMP/htdocs/projects/zanbil' 
+Search7:	'\\home\\yavaripa\\public_html\\tz3' 
+Change7:	'\/Applications\/MAMP\/htdocs\/projects\/zanbil' 
+Search8:	'%5Chome%5Cyavaripa%5Cpublic_html%5Ctz3' 
+Change8:	'%2FApplications%2FMAMP%2Fhtdocs%2Fprojects%2Fzanbil' 
+Search9:	'//tz3.yavari-partshop.com' 
+Change9:	'//zanbil.com' 
+Search10:	'\/\/tz3.yavari-partshop.com' 
+Change10:	'\/\/zanbil.com' 
+Search11:	'%2F%2Ftz3.yavari-partshop.com' 
+Change11:	'%2F%2Fzanbil.com' 
+Search12:	'https://zanbil.com' 
+Change12:	'http://zanbil.com' 
+Search13:	'https:\/\/zanbil.com' 
+Change13:	'http:\/\/zanbil.com' 
+Search14:	'https%3A%2F%2Fzanbil.com' 
+Change14:	'http%3A%2F%2Fzanbil.com' 
+SCANNED:	Tables:32 	|	 Rows:7563 	|	 Cells:48950 
+UPDATED:	Tables:2 	|	 Rows:1077 	|	 Cells:1205 
+ERRORS:		0 
+RUNTIME:	2.845800 sec
+
+NEW WP-ADMIN USER:
+- New username 'admin' was created successfully.
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/Applications/MAMP/htdocs/projects/zanbil/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+- PASS: Existing Microsoft IIS 'web.config.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 12:56:01 - RUNTIME: 2.9178 sec. 
+
+

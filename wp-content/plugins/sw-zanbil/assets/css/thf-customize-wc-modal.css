@@ -1,0 +1,158 @@
+/*
+ * Modal
+ */
+
+.tcw-modal.modal {
+
+}
+
+.tcw-modal.modal[style="display: block;"] {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.tcw-modal.modal .modal-dialog {
+    margin: unset;
+}
+
+.tcw-modal.modal .modal-body-wrap {
+    overflow: hidden;
+}
+
+.tcw-modal.modal .modal-body {
+    height: 100%;
+}
+
+.tcw-modal.modal .modal-light-bg {
+    background: #ffffff;
+}
+
+.tcw-modal.modal .modal-footer-wrap {
+    position: relative;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+.tcw-modal.modal .modal-footer-wrap.text-right {
+    text-align: right !important;
+}
+
+.tcw-modal.modal .modal-footer-wrap.text-left {
+    text-align: left !important;
+}
+
+.tcw-modal.modal .modal-footer-wrap .btn {
+    min-width: 170px;
+}
+
+.tcw-modal.modal .modal-title {
+    font-size: 17px;
+    font-size: 1.214rem;
+    line-height: 1.294;
+    letter-spacing: -.4px;
+    text-align: center;
+    color: #565656;
+}
+
+.tcw-modal.modal .modal-bold-title {
+    margin-bottom: 12px;
+    color: #565656;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    letter-spacing: -.3px;
+}
+
+.tcw-modal.modal .modal-icon {
+    padding: 50px;
+}
+
+.tcw-modal.modal .modal-icon .svg-icon {
+    height: 150px;
+    text-align: center;
+}
+
+.tcw-modal.modal .modal-icon .svg-icon path {
+    fill: #e0e0e0 !important;
+}
+
+.tcw-modal.modal .modal-form-title {
+    margin-bottom: 15px;
+    color: #aaa;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    letter-spacing: -.3px;
+}
+
+.tcw-modal.modal .modal-form-status {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 29px;
+    color: #565656;
+    letter-spacing: -.4px;
+    font-size: 20px;
+    font-size: 1.429rem;
+    line-height: 1.1;
+}
+
+.tcw-modal.modal .form-checkbox-input {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+
+.tcw-modal.modal .form-checkbox-input > .form-control {
+    margin-top: -6px;
+}
+
+.tcw-modal.modal .alert {
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 2;
+    padding: 15px 20px;
+    position: relative;
+    border-radius: 2px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.tcw-modal.modal .alert.alert-danger {
+    background-color: #fff9fa;
+    border-color: #ffc1c5;
+    color: #ef5662;
+}
+
+.tcw-modal.modal .alert.alert-success {
+    background-color: #eeffdf;
+    border: 1px solid #b7ecb8;
+    color: #518541;
+}
+
+.tcw-btn-close::before {
+	content: "";
+	width: 100%;
+	height: 15px;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: contain;
+	background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTZweCIgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiPgogIDxnPgogICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI4Ljk0MSwzMS43ODZMMC42MTMsNjAuMTE0Yy0wLjc4NywwLjc4Ny0wLjc4NywyLjA2MiwwLDIuODQ5YzAuMzkzLDAuMzk0LDAuOTA5LDAuNTksMS40MjQsMC41OSAgIGMwLjUxNiwwLDEuMDMxLTAuMTk2LDEuNDI0LTAuNTlsMjguNTQxLTI4LjU0MWwyOC41NDEsMjguNTQxYzAuMzk0LDAuMzk0LDAuOTA5LDAuNTksMS40MjQsMC41OWMwLjUxNSwwLDEuMDMxLTAuMTk2LDEuNDI0LTAuNTkgICBjMC43ODctMC43ODcsMC43ODctMi4wNjIsMC0yLjg0OUwzNS4wNjQsMzEuNzg2TDYzLjQxLDMuNDM4YzAuNzg3LTAuNzg3LDAuNzg3LTIuMDYyLDAtMi44NDljLTAuNzg3LTAuNzg2LTIuMDYyLTAuNzg2LTIuODQ4LDAgICBMMzIuMDAzLDI5LjE1TDMuNDQxLDAuNTljLTAuNzg3LTAuNzg2LTIuMDYxLTAuNzg2LTIuODQ4LDBjLTAuNzg3LDAuNzg3LTAuNzg3LDIuMDYyLDAsMi44NDlMMjguOTQxLDMxLjc4NnoiLz4KICA8L2c+Cjwvc3ZnPgo=) center center no-repeat;
+}
+
+.tcw-btn-close {
+	width: 52px;
+	height: 52px;
+	background-color: #ff637d;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 30px;
+	z-index: 4;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+}

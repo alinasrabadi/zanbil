@@ -1,0 +1,9 @@
+Plugin Sw_woocoomerce
+
+==== Version 1.0.0
+ - Release Plugin
+
+==== Version 1.0.1
+ - Fix bug from last version
+ - Update for WooCommerce 2.6.x
+ - Update language package.
