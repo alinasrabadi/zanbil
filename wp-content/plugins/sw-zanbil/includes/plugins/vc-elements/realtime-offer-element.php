@@ -24,7 +24,7 @@ class vcRealtimeOffer extends WPBakeryShortCode {
         vc_map( array(
             'name'     => 'پیشنهاد لحظه ای',
             'base'     => 'vc_realtime_offer',
-            'category' => 'زنبیل',
+            'category' => 'پارسیان',
             'icon'     => get_template_directory_uri().'/assets/img/vc-icon.png',
             'params'   => array(
 

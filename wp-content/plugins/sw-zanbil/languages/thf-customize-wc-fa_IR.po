@@ -499,7 +499,7 @@ msgstr "ثبت تغییرات"
 #: includes/admin/plugin-options.php:216 includes/admin/plugin-options.php:217
 #: includes/functions/functions-thf-general.php:23
 msgid "Themesfa"
-msgstr "زنبیل"
+msgstr "پارسیان"
 
 #: includes/admin/plugin-options.php:325
 msgid "Twitter"

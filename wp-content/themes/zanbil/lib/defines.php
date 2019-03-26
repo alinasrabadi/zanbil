@@ -293,8 +293,8 @@ function Zanbil_Options_Setup(){
 			'img' => esc_url( ZANBIL_URL.'/options/img/glyphicons/glyphicons_043_group.png' )
 	);
 	$options_args['share_icons']['linked_in'] = array(
-			'link' => esc_url( 'http://avin-tarh.ir/' ),
-			'title' => esc_html__( 'سایت گروه طراحی آوین', 'zanbil' ),
+			'link' => esc_url( 'http://parsianweb.ir/' ),
+			'title' => esc_html__( 'سایت پارسیان وب', 'zanbil' ),
 			'img' => esc_url( ZANBIL_URL.'/options/img/glyphicons/glyphicons_050_link.png' )
 	);
 
@@ -308,7 +308,7 @@ function Zanbil_Options_Setup(){
 	$options_args['menu_title'] = esc_html__('تنظیمات قالب', 'zanbil');
 
 	//Custom Page Title for options page - default is "Options"
-	$options_args['page_title'] = esc_html__('تنظیمات قالب فروشگاهی زنبیل ', 'zanbil') . wp_get_theme()->get('Name');
+	$options_args['page_title'] = esc_html__('تنظیمات قالب فروشگاهی پارسیان ', 'zanbil') . wp_get_theme()->get('Name');
 
 	//Custom page slug for options page (wp-admin/themes.php?page=***) - default is "zanbil_theme_options"
 	$options_args['page_slug'] = 'zanbil_theme_options';

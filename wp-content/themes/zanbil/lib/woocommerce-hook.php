@@ -431,16 +431,16 @@ function custom_woocommerce_upsell_display_args( $args ) {
   $args['columns']        = 4; // This is the number shown per row.
   return $args;
 }
-//wp_dashboard_setup
-add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
+// //wp_dashboard_setup
+// add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
   
-function my_custom_dashboard_widgets() {
-global $wp_meta_boxes;
+// function my_custom_dashboard_widgets() {
+// global $wp_meta_boxes;
  
-wp_add_dashboard_widget('custom_help_widget', 'گروه طراحی آوین', 'custom_dashboard_help');
-}
+// wp_add_dashboard_widget('custom_help_widget', 'پارسیان وب', 'custom_dashboard_help');
+// }
  
-function custom_dashboard_help() {
-echo '<a target="_blank" href="https://www.rtl-theme.com/author/mahmoodbeheshti/"><img class="aligncenter size-full wp-image-1124" src="http://avin-tarh.ir/avin-dashborad.png" alt="" width="100%" height="auto" /></a>';
-}
+// function custom_dashboard_help() {
+// echo '<a target="_blank" href="https://www.rtl-theme.com/author/mahmoodbeheshti/"><img class="aligncenter size-full wp-image-1124" src="http://parsianweb.ir/avin-dashborad.png" alt="" width="100%" height="auto" /></a>';
+// }
 ?>
