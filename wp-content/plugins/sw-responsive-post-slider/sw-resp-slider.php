@@ -4,7 +4,7 @@
  * Plugin URI: http://parsianweb.ir
  * Description: این افزونه برای نمایش اسلایدی محصولات و پست ها بصورت ریسپاسیو لازم است.
  * Version: 3.0
- * Author: گروه طراحی آوین
+ * Author: پارسیان وب
  * Author URI: http://parsianweb.ir
  */
 

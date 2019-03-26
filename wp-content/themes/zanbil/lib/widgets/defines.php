@@ -492,7 +492,7 @@ function Zanbil_Options_Setup(){
 	);
 	$options_args['share_icons']['linked_in'] = array(
 			'link' => esc_url( 'http://parsianweb.ir/' ),
-			'title' => esc_html__( 'سایت گروه طراحی آوین', 'zanbil' ),
+			'title' => esc_html__( 'سایت پارسیان وب', 'zanbil' ),
 			'img' => esc_url( ZANBIL_URL.'/options/img/glyphicons/glyphicons_050_link.png' )
 	);
 

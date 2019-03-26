@@ -4,7 +4,7 @@
  * Plugin URI: http://parsianweb.ir
  * Description: این افزونه المان های اضافی به ویژوال کامپوزر اضافه میکند تا محصولات را بهتر نمایش دهید.
  * Version: 5.0
- * Author: گروه طراحی آوین
+ * Author: پارسیان وب
  * Author URI: http://parsianweb.ir
  * Domain Path: /languages/
  */
