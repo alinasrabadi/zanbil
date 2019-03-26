@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: افزونه پارسیان(پست اسلایدر)
- * Plugin URI: http://avin-tarh.ir
+ * Plugin URI: http://parsianweb.ir
  * Description: این افزونه برای نمایش اسلایدی محصولات و پست ها بصورت ریسپاسیو لازم است.
  * Version: 3.0
  * Author: گروه طراحی آوین
- * Author URI: http://avin-tarh.ir
+ * Author URI: http://parsianweb.ir
  */
 
 add_action( 'widgets_init', 'sw_responsive_slider' );

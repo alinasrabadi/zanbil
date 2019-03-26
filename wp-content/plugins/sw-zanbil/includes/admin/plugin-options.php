@@ -212,7 +212,7 @@ function thf_show_plugin_options() {
     <div class="thf-panel">
 
         <div class="thf-panel-tabs">
-            <a href="http://avin-tarh.ir/" target="_blank" class="thf-logo">
+            <a href="http://parsianweb.ir/" target="_blank" class="thf-logo">
                 <img class="thf-logo-normal" src="<?php echo TCW_ADMIN_URL . '/assets/images/thf-logo.png' ?>" alt="<?php esc_html_e( 'Themesfa', TCW_TEXTDOMAIN ) ?>"/>
                 <img class="thf-logo-mini" src="<?php echo TCW_ADMIN_URL . '/assets/images/thf-logo-mini.png' ?>" alt="<?php esc_html_e( 'Themesfa', TCW_TEXTDOMAIN ) ?>"/>
             </a>

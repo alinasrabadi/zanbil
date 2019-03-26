@@ -15,21 +15,21 @@ function zanbil_register_required_plugins() {
             array(
             'name'               => esc_html__( 'افزونه اختصاصی قالب پارسیان 2', 'zanbil' ),
             'slug'               => 'sw_woocommerce',
-						'source'         		 => esc_url( 'http://zanbil.avin-tarh.ir/plugins/sw_woocommerce.zip' ), 
+						'source'         		 => esc_url( 'http://zanbil.parsianweb.ir/plugins/sw_woocommerce.zip' ), 
             'required'           => true,
         ),
         
          array(
             'name'               => esc_html__( 'افزونه اختصاصی قالب پارسیان 3', 'zanbil' ), 
             'slug'               => 'sw-responsive-post-slider', 
-            'source'             => esc_url( 'http://zanbil.avin-tarh.ir/plugins/sw-responsive-post-slider.zip' ), 
+            'source'             => esc_url( 'http://zanbil.parsianweb.ir/plugins/sw-responsive-post-slider.zip' ), 
             'required'           => true, 
         ),
 
         array(
             'name'               => esc_html__( 'افزونه صفحه ساز ویژال کامپوزر', 'zanbil' ), 
             'slug'               => 'js_composer', 
-            'source'             => esc_url( 'http://zanbil.avin-tarh.ir/plugins/js_composer.zip' ), 
+            'source'             => esc_url( 'http://zanbil.parsianweb.ir/plugins/js_composer.zip' ), 
             'required'           => true, 
         ),         
     );

@@ -441,6 +441,6 @@ wp_add_dashboard_widget('custom_help_widget', 'گروه طراحی آوین', 'c
 }
  
 function custom_dashboard_help() {
-echo '<a target="_blank" href="https://www.rtl-theme.com/author/mahmoodbeheshti/"><img class="aligncenter size-full wp-image-1124" src="http://avin-tarh.ir/avin-dashborad.png" alt="" width="100%" height="auto" /></a>';
+echo '<a target="_blank" href="https://www.rtl-theme.com/author/mahmoodbeheshti/"><img class="aligncenter size-full wp-image-1124" src="http://parsianweb.ir/avin-dashborad.png" alt="" width="100%" height="auto" /></a>';
 }
 ?>
