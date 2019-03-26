@@ -65,7 +65,7 @@
 			  "base" => "woo_tab_cat_slider",
 			  "icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 			  "class" => "",
-			  "category" => "زنبیل",
+			  "category" => "پارسیان",
 			  "params" => array(
 				 array(
 					"type" => "textfield",

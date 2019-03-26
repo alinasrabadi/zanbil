@@ -308,7 +308,7 @@ function Zanbil_Options_Setup(){
 	$options_args['menu_title'] = esc_html__('تنظیمات قالب', 'zanbil');
 
 	//Custom Page Title for options page - default is "Options"
-	$options_args['page_title'] = esc_html__('تنظیمات قالب فروشگاهی زنبیل ', 'zanbil') . wp_get_theme()->get('Name');
+	$options_args['page_title'] = esc_html__('تنظیمات قالب فروشگاهی پارسیان ', 'zanbil') . wp_get_theme()->get('Name');
 
 	//Custom page slug for options page (wp-admin/themes.php?page=***) - default is "zanbil_theme_options"
 	$options_args['page_slug'] = 'zanbil_theme_options';

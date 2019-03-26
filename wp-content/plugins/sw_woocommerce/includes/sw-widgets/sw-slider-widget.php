@@ -46,7 +46,7 @@ if ( !class_exists('sw_woo_slider_widget') ) {
 			  "base" => "woo_slide",
 			  "icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 			  "class" => "",
-			  "category" => "زنبیل",
+			  "category" => "پارسیان",
 			  "params" => array(
 				 array(
 					"type" => "textfield",

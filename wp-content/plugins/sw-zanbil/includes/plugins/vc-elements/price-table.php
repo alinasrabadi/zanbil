@@ -24,7 +24,7 @@ class vcPriceTable extends WPBakeryShortCode {
         vc_map( array(
             'name'     => 'لیست قیمت',
             'base'     => 'vc_price_table',
-            'category' => 'زنبیل',
+            'category' => 'پارسیان',
             'icon'     => get_template_directory_uri().'/assets/img/vc-icon.png',
             'params'   => array(
 

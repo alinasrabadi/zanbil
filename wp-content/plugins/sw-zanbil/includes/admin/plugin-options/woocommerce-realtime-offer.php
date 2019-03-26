@@ -3,7 +3,7 @@
 thf_build_plugin_option( array(
     'title'  => esc_html__( 'WooCommerce Real-time Offer Settings', TCW_TEXTDOMAIN ),
     'parent' => 'woocommerce-tab',
-    'id'     => 'woocommerce-realtime-offer-tab',
+    'id'     => 'woocommerce-realtime-offer-tab', 
     'type'   => 'tab-title',
 ) );
 

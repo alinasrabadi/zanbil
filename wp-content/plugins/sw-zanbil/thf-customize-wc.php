@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:     افزونه زنبیل (آپدیت سوم)
+ * Plugin Name:     افزونه پارسیان (آپدیت سوم)
  * Plugin URI:      http://avin-tarh.ir/
- * Description:     افزونه اختصاصی قالب زنبیل - آپدیت سوم
+ * Description:     افزونه اختصاصی قالب پارسیان - آپدیت سوم
  * Version:         1.0.0
  * Author:          Avin-tarh
  * Author URI:      http://avin-tarh.ir/
