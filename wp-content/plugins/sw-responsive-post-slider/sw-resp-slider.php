@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: افزونه زنبیل(پست اسلایدر)
- * Plugin URI: http://avin-tarh.ir
+ * Plugin Name: افزونه پارسیان(پست اسلایدر)
+ * Plugin URI: http://parsianweb.ir
  * Description: این افزونه برای نمایش اسلایدی محصولات و پست ها بصورت ریسپاسیو لازم است.
  * Version: 3.0
- * Author: گروه طراحی آوین
- * Author URI: http://avin-tarh.ir
+ * Author: پارسیان وب
+ * Author URI: http://parsianweb.ir
  */
 
 add_action( 'widgets_init', 'sw_responsive_slider' );
@@ -68,7 +68,7 @@ class sw_resp_slider extends WP_Widget {
 		  "base" => "respost_slide",
 		  "icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 		  "class" => "",
-		  "category" => __( "زنبیل", 'zanbil'),
+		  "category" => __( "پارسیان", 'zanbil'),
 		  "params" => array(
 			 array(
 				"type" => "textfield",

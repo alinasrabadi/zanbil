@@ -1,0 +1,24 @@
+2019-03-30T16:56:25+00:00 CRITICAL Object of class WP_Error could not be converted to string در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/plugins/sw_woocommerce/includes/themes/sw-brands/default.php در خط 31
+
+2019-03-30T16:56:29+00:00 CRITICAL Object of class WP_Error could not be converted to string در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/plugins/sw_woocommerce/includes/themes/sw-brands/default.php در خط 31
+
+2019-03-30T16:56:33+00:00 CRITICAL Object of class WP_Error could not be converted to string در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/plugins/sw_woocommerce/includes/themes/category-slider/default.php در خط 29
+
+2019-03-30T16:56:50+00:00 CRITICAL Object of class WP_Error could not be converted to string در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/plugins/sw_woocommerce/includes/themes/sw-brands/default.php در خط 31
+
+2019-03-30T16:56:53+00:00 CRITICAL Object of class WP_Error could not be converted to string در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/plugins/sw_woocommerce/includes/themes/sw-brands/default.php در خط 31
+
+2019-03-30T19:54:43+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:54:44+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:54:46+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:54:52+00:00 CRITICAL Call to undefined function is_blog() در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:54:55+00:00 CRITICAL Call to undefined function is_blog() در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:55:03+00:00 CRITICAL Call to undefined function is_blog() در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+
+2019-03-30T19:55:20+00:00 CRITICAL Call to undefined function is_blog() در /Applications/MAMP/htdocs/projects/zanbil-shop/wp-content/themes/zanbil/custom-function.php در خط 24
+

@@ -77,7 +77,7 @@ if ( !class_exists('sw_woo_slider_countdown_widget') ) {
 			  "base" => "woo_slide_countdown",
 			  "icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 			  "class" => "",
-			  "category" => __( "زنبیل", 'sw_woocommerce'),
+			  "category" => __( "پارسیان", 'sw_woocommerce'),
 			  "params" => array(
 				 array(
 					"type" => "textfield",

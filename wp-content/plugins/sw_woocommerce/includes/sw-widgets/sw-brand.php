@@ -60,7 +60,7 @@ class sw_brand_slider_widget extends WP_Widget {
 		  "base" => "sw_brand",
 		  "icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 		  "class" => "",
-		  "category" => "زنبیل",
+		  "category" => "پارسیان",
 		  "params" => array(
 			 array(
 				"type" => "textfield",

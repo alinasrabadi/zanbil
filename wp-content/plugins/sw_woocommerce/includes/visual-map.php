@@ -120,7 +120,7 @@ vc_map( array(
 	'name' => 'شمارنده با بنر',
 	'base' => 'banner_countdown',
 	"icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
-	'category' => 'زنبیل',
+	'category' => 'پارسیان',
 	'class' => 'wpb_vc_wp_widget',
 	'weight' => - 50,
 	'params' => array(
@@ -179,7 +179,7 @@ vc_map( array(
 	  "base" => "product_tab",
 		"icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
 	  "class" => "",
-	  "category" => "زنبیل",
+	  "category" => "پارسیان",
 	  "params" => array(
 	  	array(
 			'type' => 'textfield',
@@ -221,7 +221,7 @@ vc_map( array(
 		'name' => 'آکاردئون محصولات پیشنهادی',
 		'base' => 'accordion_popular_product',
 		"icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
-		'category' => 'زنبیل',
+		'category' => 'پارسیان',
 		'class' => 'wpb_vc_wp_widget',
 		'weight' => - 50,
 		'params' => array(
@@ -257,7 +257,7 @@ vc_map( array(
 	'name' => 'اسلایدر محصولات پیشنهادی',
 	'base' => 'Recommend',
 	"icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
-	'category' =>  'زنبیل',
+	'category' =>  'پارسیان',
 	'class' => 'wpb_vc_wp_widget',
 	'weight' => - 50,
 	'params' => array(

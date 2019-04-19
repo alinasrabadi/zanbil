@@ -115,7 +115,7 @@ class sw_testimonial_slider_widget extends WP_Widget {
 			'name' =>  __( 'اسلایدر نظرات کاربران', 'zanbil' ),
 			'base' => 'testimonial',
 			"icon" => get_template_directory_uri().'/assets/img/vc-icon.png',
-			'category' => __( 'زنبیل', 'zanbil' ),
+			'category' => __( 'پارسیان', 'zanbil' ),
 			'class' => 'wpb_vc_wp_widget',
 			'weight' => - 50,
 			'description' => '',
