@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php wc_get_template_part( 'content', 'single-product-custom' ); ?>
+					<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 				<?php endwhile; // end of the loop. ?>
 			
